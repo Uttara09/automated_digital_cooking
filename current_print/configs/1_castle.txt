@@ -1,5 +1,5 @@
-./gcode_unclean/1_castle_185_208_4.65.gcode
-./gcode_clean/1_castle_185_208_4.65.gcode
+./gcode_unclean/1_castle_185_208_4.65_0.0195.gcode
+./gcode_clean/1_castle_185_208_4.65_0.0195.gcode
 8
 1
 8
