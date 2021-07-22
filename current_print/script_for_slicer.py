@@ -6,6 +6,7 @@
 
 from os import listdir
 from os.path import isfile, join
+import collections
 
 def main():
 	STL_file_path = "./STL_files/"
@@ -23,6 +24,10 @@ def main():
 			extrusion_mul = file_parts[5][:-4]	#exclude ".STL"
 			file_details[index] = [f, x_coord, y_coord, z_offset, extrusion_mul]
 	
+	file_details = collections.OrderedDict(sorted(file_details.items()))
+	print("####### file_details ########")
+	print(file_details)
+
 	slic3r_script = open("slic3r_script.sh", "w")
 	for key in file_details.keys():
 		slic3r_script.write("../../Slic3r/slic3r.pl --gcode-comments --infill-speed 10 --fill-density 80 --z-offset ")
@@ -37,6 +42,7 @@ def main():
 		slic3r_script.write("./gcode_unclean ")
 		slic3r_script.write("./STL_files/")
 		slic3r_script.write(file_details[key][0])	#input
+		slic3r_script.write('\n')
 
 if __name__ == '__main__':
 	main()

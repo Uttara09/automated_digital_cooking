@@ -13,7 +13,7 @@ getConfigs = function(path)
   return (retval)
 }
 
-listcfgs = c("1_castle.txt")
+listcfgs = c("1_base.txt","2_shell.txt","3_filling.txt","4_filling.txt","5_filling.txt","6_filling.txt","7_filling.txt","8_filling.txt","9_filling.txt")
 
 for(x in 1 : length(listcfgs))
 {

@@ -1,0 +1,8 @@
+./gcode_unclean/5_filling_184.56_208.25_-0.10_0.025.gcode
+./gcode_clean/5_filling_184.56_208.25_-0.10_0.025.gcode
+8
+1
+8
+4
+5
+0
