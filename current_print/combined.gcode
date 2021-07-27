@@ -8,469 +8,12 @@ G4 P4000; sleep extra 4s
 G92 U0 ; reset extrusion distance
 G1 U-2.00000 F2400.00000 ; retract extruder 0
 G92 U0 ; reset extrusion distance
-G1 X182.762 Y202.424 F1800.000 ; move to first external small perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X188.709 Y202.776 U2.01419 ; external small perimeter
-G1 X191.377 Y208.102 U2.02839 ; external small perimeter
-G1 X188.098 Y213.076 U2.04258 ; external small perimeter
-G1 X182.151 Y212.724 U2.05678 ; external small perimeter
-G1 X179.483 Y207.398 U2.07097 ; external small perimeter
-G1 X182.663 Y202.574 U2.08474 ; external small perimeter
-G1 U0.08474 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X183.220 Y205.172 F1800.000 ; move to first infill point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-G1 F600.000
-G1 X183.009 Y205.159 U2.00060 ; infill
-G1 X182.576 Y205.815 U2.00285 ; infill
-G1 X184.717 Y203.675 U2.01151 ; infill
-G1 X187.801 Y203.858 U2.02034 ; infill
-G1 X181.763 Y209.895 U2.04475 ; infill
-G1 X182.626 Y211.617 U2.05026 ; infill
-G1 X183.270 Y211.655 U2.05210 ; infill
-G1 X189.171 Y205.754 U2.07597 ; infill
-G1 X189.907 Y207.222 U2.08066 ; infill
-G1 X187.852 Y210.340 U2.09134 ; infill
-G1 X186.354 Y211.838 U2.09740 ; infill
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U2.12603 ; external small perimeter
-G1 X191.769 Y208.126 U2.15466 ; external small perimeter
-G1 X188.274 Y213.427 U2.18330 ; external small perimeter
-G1 X181.935 Y213.052 U2.21193 ; external small perimeter
-G1 X179.091 Y207.374 U2.24056 ; external small perimeter
-G1 X182.487 Y202.223 U2.26839 ; external small perimeter
-G1 X188.577 Y204.320 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X187.509 Y203.252 U2.28031 ; infill
-G1 X184.713 Y203.086 U2.30243 ; infill
-G1 X190.500 Y208.874 U2.36704 ; infill
-G1 X189.454 Y210.459 U2.38203 ; infill
-G1 X182.451 Y203.455 U2.46023 ; infill
-G1 X181.406 Y205.041 U2.47523 ; infill
-G1 X188.409 Y212.045 U2.55343 ; infill
-G1 X188.090 Y212.529 U2.55800 ; infill
-G1 X186.147 Y212.414 U2.57337 ; infill
-G1 X180.360 Y206.626 U2.63799 ; infill
-G1 X180.157 Y206.935 U2.64091 ; infill
-G1 X182.283 Y211.180 U2.67839 ; infill
-G1 X183.351 Y212.248 U2.69031 ; infill
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U2.71894 ; external small perimeter
-G1 X191.769 Y208.126 U2.74757 ; external small perimeter
-G1 X188.274 Y213.427 U2.77621 ; external small perimeter
-G1 X181.935 Y213.052 U2.80484 ; external small perimeter
-G1 X179.091 Y207.374 U2.83347 ; external small perimeter
-G1 X182.487 Y202.223 U2.86130 ; external small perimeter
-G1 X182.770 Y204.039 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X183.837 Y202.971 U2.87284 ; infill
-G1 X186.243 Y203.114 U2.89128 ; infill
-G1 X180.556 Y208.801 U2.95279 ; infill
-G1 X181.407 Y210.499 U2.96731 ; infill
-G1 X188.602 Y203.303 U3.04514 ; infill
-G1 X189.453 Y205.001 U3.05966 ; infill
-G1 X182.258 Y212.197 U3.13749 ; infill
-G1 X182.283 Y212.248 U3.13793 ; infill
-G1 X184.617 Y212.386 U3.15581 ; infill
-G1 X190.304 Y206.699 U3.21732 ; infill
-G1 X190.703 Y207.497 U3.22414 ; infill
-G1 X188.091 Y211.461 U3.26045 ; infill
-G1 X187.023 Y212.529 U3.27200 ; infill
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U3.30064 ; external small perimeter
-G1 X191.769 Y208.126 U3.32927 ; external small perimeter
-G1 X188.274 Y213.427 U3.35790 ; external small perimeter
-G1 X181.935 Y213.052 U3.38654 ; external small perimeter
-G1 X179.091 Y207.374 U3.41517 ; external small perimeter
-G1 X182.487 Y202.223 U3.44299 ; external small perimeter
-G1 X188.995 Y205.154 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.226 U3.46316 ; infill
-G1 X183.792 Y203.032 U3.48742 ; infill
-G1 X190.156 Y209.395 U3.55397 ; infill
-G1 X188.932 Y211.252 U3.57041 ; infill
-G1 X181.928 Y204.248 U3.64366 ; infill
-G1 X180.704 Y206.105 U3.66011 ; infill
-G1 X187.068 Y212.468 U3.72666 ; infill
-G1 X183.793 Y212.274 U3.75092 ; infill
-G1 X181.865 Y210.346 U3.77108 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U3.79972 ; external small perimeter
-G1 X191.769 Y208.126 U3.82835 ; external small perimeter
-G1 X188.274 Y213.427 U3.85699 ; external small perimeter
-G1 X181.935 Y213.052 U3.88562 ; external small perimeter
-G1 X179.091 Y207.374 U3.91425 ; external small perimeter
-G1 X182.487 Y202.223 U3.94207 ; external small perimeter
-G1 X184.036 Y202.983 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.362 Y204.657 U3.95959 ; infill
-G1 X180.157 Y208.003 U3.98922 ; infill
-G1 X180.804 Y209.295 U3.99991 ; infill
-G1 X186.944 Y203.155 U4.06412 ; infill
-G1 X188.577 Y203.252 U4.07622 ; infill
-G1 X189.028 Y204.152 U4.08366 ; infill
-G1 X181.832 Y211.348 U4.15892 ; infill
-G1 X182.283 Y212.248 U4.16636 ; infill
-G1 X183.916 Y212.345 U4.17846 ; infill
-G1 X190.056 Y206.205 U4.24267 ; infill
-G1 X190.703 Y207.497 U4.25336 ; infill
-G1 X188.498 Y210.843 U4.28300 ; infill
-G1 X186.824 Y212.517 U4.30051 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U4.32914 ; external small perimeter
-G1 X191.769 Y208.126 U4.35777 ; external small perimeter
-G1 X188.274 Y213.427 U4.38641 ; external small perimeter
-G1 X181.935 Y213.052 U4.41504 ; external small perimeter
-G1 X179.091 Y207.374 U4.44367 ; external small perimeter
-G1 X182.487 Y202.223 U4.47150 ; external small perimeter
-G1 X188.995 Y205.154 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.226 U4.49166 ; infill
-G1 X183.792 Y203.032 U4.51592 ; infill
-G1 X190.156 Y209.395 U4.58247 ; infill
-G1 X188.932 Y211.252 U4.59892 ; infill
-G1 X181.928 Y204.248 U4.67217 ; infill
-G1 X180.704 Y206.105 U4.68861 ; infill
-G1 X187.068 Y212.468 U4.75516 ; infill
-G1 X183.793 Y212.274 U4.77942 ; infill
-G1 X181.865 Y210.346 U4.79959 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U4.82822 ; external small perimeter
-G1 X191.769 Y208.126 U4.85686 ; external small perimeter
-G1 X188.274 Y213.427 U4.88549 ; external small perimeter
-G1 X181.935 Y213.052 U4.91412 ; external small perimeter
-G1 X179.091 Y207.374 U4.94276 ; external small perimeter
-G1 X182.487 Y202.223 U4.97058 ; external small perimeter
-G1 X184.036 Y202.983 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.362 Y204.657 U4.98809 ; infill
-G1 X180.157 Y208.003 U5.01772 ; infill
-G1 X180.804 Y209.295 U5.02841 ; infill
-G1 X186.944 Y203.155 U5.09263 ; infill
-G1 X188.577 Y203.252 U5.10472 ; infill
-G1 X189.028 Y204.152 U5.11217 ; infill
-G1 X181.832 Y211.348 U5.18742 ; infill
-G1 X182.283 Y212.248 U5.19487 ; infill
-G1 X183.916 Y212.345 U5.20696 ; infill
-G1 X190.056 Y206.205 U5.27118 ; infill
-G1 X190.703 Y207.497 U5.28187 ; infill
-G1 X188.498 Y210.843 U5.31150 ; infill
-G1 X186.824 Y212.517 U5.32901 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.448 U5.35764 ; external small perimeter
-G1 X191.769 Y208.126 U5.38628 ; external small perimeter
-G1 X188.274 Y213.427 U5.41491 ; external small perimeter
-G1 X181.935 Y213.052 U5.44354 ; external small perimeter
-G1 X179.091 Y207.374 U5.47218 ; external small perimeter
-G1 X182.487 Y202.223 U5.50000 ; external small perimeter
-G1 X188.995 Y205.154 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.226 U5.52017 ; infill
-G1 X183.792 Y203.032 U5.54442 ; infill
-G1 X190.156 Y209.395 U5.61098 ; infill
-G1 X188.932 Y211.252 U5.62742 ; infill
-G1 X181.928 Y204.248 U5.70067 ; infill
-G1 X180.704 Y206.105 U5.71711 ; infill
-G1 X187.068 Y212.468 U5.78367 ; infill
-G1 X183.793 Y212.274 U5.80793 ; infill
-G1 X181.865 Y210.346 U5.82809 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-9.91223 F2000; retract to 0
-G92 U0;
-
-G01 U0 F4000;
-G01 Z160 F1000; retract z to some high position
-G01 X321.2 Y50 F1000; get in front of proper tool post
-G01 Y0 F1000; set the correct y height in front of tool post 7
-G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
-G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
-G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
-G01 Y50 F1000; move back in the y direction from the tool post 7
-G01 U0 F4000;
-G01 Z143.5 F1000; move towards tool post
-G01 X364.8 Y50 F1000; get near tool post 8
-G01 Y15 F1000; engage magnets with new tool
-G01 Z158.5 F1000; move upward and pull tool off of post
-G01 Y50 F1000; move away from tool post with new tool
-G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X188.860 Y203.994 F1800.000 ; move to first perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X180.734 Y203.512 U2.01106 ; perimeter
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X181.647 Y203.255 F1800.000 ; move to first external perimeter point
-G1 F600.000
-G1 X187.984 Y203.630 U2.02938 ; external perimeter
-G1 X188.913 Y205.494 U2.03539 ; external perimeter
-
-G1 F1200.000
-G1 X190.828 Y209.338 U2.05737 ; external perimeter (bridge)
-G1 X189.015 Y212.101 U2.07429 ; external perimeter (bridge)
-G1 X179.623 Y211.544 U2.12247 ; external perimeter (bridge)
-G1 X178.148 Y208.586 U2.13939 ; external perimeter (bridge)
-G1 X180.504 Y204.996 U2.16137 ; external perimeter (bridge)
-
-G1 F600.000
-G1 X181.548 Y203.405 U2.16686 ; external perimeter
-G1 U0.16686 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X187.853 Y205.015 F1800.000 ; move to first infill (bridge) point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-
-G1 F1200.000
-G1 X181.613 Y204.645 U2.03689 ; infill (bridge)
-G1 X180.428 Y206.450 U2.04962 ; infill (bridge)
-G1 X188.816 Y206.947 U2.09920 ; infill (bridge)
-G1 X189.779 Y208.879 U2.11193 ; infill (bridge)
-G1 X179.244 Y208.254 U2.17420 ; infill (bridge)
-G1 X178.994 Y208.636 U2.17689 ; infill (bridge)
-G1 X179.753 Y210.160 U2.18693 ; infill (bridge)
-G1 X189.049 Y210.711 U2.24187 ; infill (bridge)
-G1 X181.262 Y210.249 U2.28789 ; infill (bridge)
-
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X181.654 Y203.136 F1800.000 ; move to first external perimeter point
-G1 F600.000
-G1 X187.991 Y203.512 U2.30621 ; external perimeter
-G1 X190.835 Y209.219 U2.32462 ; external perimeter
-G1 X188.149 Y213.312 U2.33874 ; external perimeter
-
-G1 F1200.000
-G1 X187.337 Y214.551 U2.34633 ; external perimeter (bridge)
-G1 X181.000 Y214.175 U2.37883 ; external perimeter (bridge)
-G1 X180.339 Y212.849 U2.38642 ; external perimeter (bridge)
-
-G1 F600.000
-G1 X178.155 Y208.468 U2.40055 ; external perimeter
-G1 X181.555 Y203.287 U2.41843 ; external perimeter
-G1 X182.907 Y204.035 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X181.839 Y205.103 U2.42646 ; infill
-G1 X179.363 Y208.877 U2.45045 ; infill
-G1 X180.750 Y208.960 U2.45784 ; infill
-G1 X185.520 Y204.190 U2.49369 ; infill
-G1 X187.641 Y204.316 U2.50498 ; infill
-G1 X187.814 Y204.663 U2.50704 ; infill
-G1 X183.362 Y209.114 U2.54050 ; infill
-G1 X185.975 Y209.269 U2.55441 ; infill
-G1 X188.734 Y206.510 U2.57515 ; infill
-G1 X189.654 Y208.356 U2.58612 ; infill
-G1 X188.587 Y209.424 U2.59414 ; infill
-G1 X187.150 Y212.581 F1800.000 ; move to first infill (bridge) point
-
-G1 F1200.000
-G1 X186.081 Y213.650 U2.60540 ; infill (bridge)
-
-G1 U0.60540 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X183.282 Y213.485 F1800.000 ; move to first infill (bridge) point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-
-G1 F1200.000
-G1 X186.831 Y209.936 U2.03736 ; infill (bridge)
-G1 X184.032 Y209.770 U2.05824 ; infill (bridge)
-G1 X181.045 Y212.757 U2.08969 ; infill (bridge)
-G1 X180.059 Y210.778 U2.10615 ; infill (bridge)
-G1 X181.233 Y209.604 U2.11851 ; infill (bridge)
-
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X181.661 Y203.018 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X187.998 Y203.394 U2.13683 ; external small perimeter
-G1 X190.842 Y209.101 U2.15524 ; external small perimeter
-G1 X187.344 Y214.432 U2.17364 ; external small perimeter
-G1 X181.007 Y214.057 U2.19196 ; external small perimeter
-G1 X178.163 Y208.349 U2.21036 ; external small perimeter
-G1 X181.562 Y203.168 U2.22825 ; external small perimeter
-G1 X187.648 Y205.265 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X186.580 Y204.197 U2.23591 ; infill
-G1 X183.771 Y204.031 U2.25019 ; infill
-G1 X189.581 Y209.841 U2.29189 ; infill
-G1 X188.534 Y211.436 U2.30157 ; infill
-G1 X181.517 Y204.419 U2.35194 ; infill
-G1 X180.470 Y206.014 U2.36162 ; infill
-G1 X187.487 Y213.032 U2.41199 ; infill
-G1 X187.158 Y213.534 U2.41504 ; infill
-G1 X185.233 Y213.420 U2.42482 ; infill
-G1 X179.423 Y207.610 U2.46652 ; infill
-G1 X179.226 Y207.910 U2.46834 ; infill
-G1 X181.356 Y212.185 U2.49258 ; infill
-G1 X182.424 Y213.253 U2.50025 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X181.668 Y202.900 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.005 Y203.275 U2.51857 ; external small perimeter
-G1 X190.849 Y208.983 U2.53697 ; external small perimeter
-G1 X187.351 Y214.314 U2.55537 ; external small perimeter
-G1 X181.014 Y213.939 U2.57369 ; external small perimeter
-G1 X178.170 Y208.231 U2.59210 ; external small perimeter
-G1 X181.569 Y203.050 U2.60998 ; external small perimeter
-G1 X181.854 Y204.866 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X182.921 Y203.798 U2.61740 ; infill
-G1 X185.337 Y203.942 U2.62929 ; infill
-G1 X179.627 Y209.651 U2.66897 ; infill
-G1 X180.478 Y211.359 U2.67834 ; infill
-G1 X187.689 Y204.148 U2.72845 ; infill
-G1 X188.540 Y205.855 U2.73783 ; infill
-G1 X181.329 Y213.066 U2.78794 ; infill
-G1 X181.364 Y213.135 U2.78832 ; infill
-G1 X183.682 Y213.272 U2.79973 ; infill
-G1 X189.391 Y207.563 U2.83941 ; infill
-G1 X189.785 Y208.354 U2.84375 ; infill
-G1 X187.165 Y212.347 U2.86722 ; infill
-G1 X186.097 Y213.415 U2.87465 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X181.675 Y202.781 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.012 Y203.157 U2.89297 ; external small perimeter
-G1 X190.856 Y208.864 U2.91137 ; external small perimeter
-G1 X187.358 Y214.196 U2.92977 ; external small perimeter
-G1 X181.021 Y213.820 U2.94809 ; external small perimeter
-G1 X178.177 Y208.113 U2.96649 ; external small perimeter
-G1 X181.576 Y202.932 U2.98438 ; external small perimeter
-G1 X181.218 Y210.569 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.438 Y213.017 U2.99732 ; infill
-G1 X183.743 Y213.094 U3.00351 ; infill
-G1 X180.151 Y209.501 U3.02756 ; infill
-G1 X179.240 Y207.674 U3.03722 ; infill
-G1 X180.097 Y206.368 U3.04462 ; infill
-G1 X187.018 Y213.288 U3.09094 ; infill
-G1 X187.172 Y213.297 U3.09167 ; infill
-G1 X188.335 Y211.525 U3.10170 ; infill
-G1 X181.318 Y204.508 U3.14867 ; infill
-G1 X181.861 Y203.680 U3.15335 ; infill
-G1 X183.678 Y203.788 U3.16197 ; infill
-G1 X189.555 Y209.665 U3.20131 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X181.682 Y202.663 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.019 Y203.039 U3.21963 ; external small perimeter
-G1 X190.863 Y208.746 U3.23803 ; external small perimeter
-G1 X187.365 Y214.078 U3.25644 ; external small perimeter
-G1 X181.028 Y213.702 U3.27476 ; external small perimeter
-G1 X178.184 Y207.995 U3.29316 ; external small perimeter
-G1 X181.583 Y202.814 U3.31104 ; external small perimeter
-G1 X184.447 Y204.782 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.868 Y204.629 U3.32327 ; infill
-G1 X179.247 Y208.623 U3.34588 ; infill
-G1 X179.699 Y209.530 U3.35068 ; infill
-G1 X185.515 Y203.715 U3.38961 ; infill
-G1 X187.669 Y203.842 U3.39982 ; infill
-G1 X187.935 Y204.375 U3.40264 ; infill
-G1 X180.724 Y211.586 U3.45090 ; infill
-G1 X181.378 Y212.898 U3.45784 ; infill
-G1 X182.430 Y212.961 U3.46283 ; infill
-G1 X188.959 Y206.431 U3.50653 ; infill
-G1 X189.799 Y208.118 U3.51545 ; infill
-G1 X188.743 Y209.728 U3.52456 ; infill
-G1 X185.338 Y213.133 U3.54736 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X181.689 Y202.545 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.026 Y202.920 U3.56568 ; external small perimeter
-G1 X190.870 Y208.628 U3.58408 ; external small perimeter
-G1 X187.372 Y213.959 U3.60248 ; external small perimeter
-G1 X181.035 Y213.584 U3.62080 ; external small perimeter
-G1 X178.191 Y207.876 U3.63921 ; external small perimeter
-G1 X181.590 Y202.695 U3.65709 ; external small perimeter
-G1 X181.481 Y210.832 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.452 Y212.780 U3.66739 ; infill
-G1 X183.491 Y212.842 U3.67232 ; infill
-G1 X180.414 Y209.764 U3.69291 ; infill
-G1 X179.254 Y207.437 U3.70522 ; infill
-G1 X180.012 Y206.282 U3.71176 ; infill
-G1 X186.765 Y213.036 U3.75696 ; infill
-G1 X187.186 Y213.061 U3.75896 ; infill
-G1 X188.250 Y211.440 U3.76813 ; infill
-G1 X181.232 Y204.422 U3.81510 ; infill
-G1 X181.875 Y203.444 U3.82064 ; infill
-G1 X183.426 Y203.536 U3.82800 ; infill
-G1 X189.470 Y209.580 U3.86845 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-8.60335 F2000; retract to 0
-G92 U0;
-
-G01 U0 F4000;
-G01 Z160 F1000; retract z to some high position
-G01 X229.7 Y50 F1000; get in front of proper tool post
-G01 Y0 F1000; set the correct y height in front of tool post 5
-G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
-G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
-G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
-G01 Y50 F1000; move back in the y direction from the tool post 5
-G01 U0 F4000;
-G01 Z143.5 F1000; move towards tool post
-G01 X276.1 Y50 F1000; get near tool post 6
-G01 Y15 F1000; engage magnets with new tool
-G01 Z158.5 F1000; move upward and pull tool off of post
-G01 Y50 F1000; move away from tool post with new tool
-G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
 G1 X165.885 Y206.951 F1800.000 ; move to first external perimeter point
 G1 Z0.000 F1800.000 ; move to next layer (0)
 G1 U2.00000 F2400.00000 ; unretract extruder 0
 M83;
-G01 U15;
-G01 U20 F50;
+G01 U45;
+G01 U50 F50;
 G92 U0;
 
 G1 F600.000
@@ -1106,7 +649,7 @@ G92 U0 ; reset extrusion distance
 ; Retract Code
 ;;;;;;;;;
 G92 U0;
-G1 U-59.75639 F2000; retract to 0
+G1 U-89.75639 F2000; retract to 0
 G92 U0;
 
 G01 U0 F4000;
@@ -1134,879 +677,12 @@ G4 P4000; sleep extra 4s
 G92 U0 ; reset extrusion distance
 G1 U-2.00000 F2400.00000 ; retract extruder 0
 G92 U0 ; reset extrusion distance
-G1 X182.332 Y202.674 F1800.000 ; move to first external small perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X188.279 Y203.026 U2.01107 ; external small perimeter
-G1 X190.947 Y208.352 U2.02214 ; external small perimeter
-G1 X187.668 Y213.326 U2.03322 ; external small perimeter
-G1 X181.721 Y212.974 U2.04429 ; external small perimeter
-G1 X179.053 Y207.648 U2.05536 ; external small perimeter
-G1 X182.233 Y202.824 U2.06610 ; external small perimeter
-G1 U0.06610 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X182.790 Y205.422 F1800.000 ; move to first infill point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-G1 F600.000
-G1 X182.579 Y205.409 U2.00047 ; infill
-G1 X182.146 Y206.065 U2.00222 ; infill
-G1 X184.287 Y203.925 U2.00898 ; infill
-G1 X187.371 Y204.108 U2.01587 ; infill
-G1 X181.333 Y210.145 U2.03491 ; infill
-G1 X182.196 Y211.867 U2.03920 ; infill
-G1 X182.840 Y211.905 U2.04064 ; infill
-G1 X188.741 Y206.004 U2.05925 ; infill
-G1 X189.477 Y207.472 U2.06292 ; infill
-G1 X187.422 Y210.590 U2.07125 ; infill
-G1 X185.924 Y212.088 U2.07597 ; infill
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U2.09830 ; external small perimeter
-G1 X191.339 Y208.376 U2.12064 ; external small perimeter
-G1 X187.844 Y213.677 U2.14297 ; external small perimeter
-G1 X181.505 Y213.302 U2.16531 ; external small perimeter
-G1 X178.661 Y207.624 U2.18764 ; external small perimeter
-G1 X182.057 Y202.473 U2.20934 ; external small perimeter
-G1 X188.147 Y204.570 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X187.079 Y203.502 U2.21864 ; infill
-G1 X184.283 Y203.336 U2.23589 ; infill
-G1 X190.070 Y209.124 U2.28629 ; infill
-G1 X189.024 Y210.709 U2.29799 ; infill
-G1 X182.021 Y203.705 U2.35898 ; infill
-G1 X180.976 Y205.291 U2.37068 ; infill
-G1 X187.979 Y212.295 U2.43167 ; infill
-G1 X187.660 Y212.779 U2.43524 ; infill
-G1 X185.717 Y212.664 U2.44723 ; infill
-G1 X179.930 Y206.876 U2.49763 ; infill
-G1 X179.727 Y207.185 U2.49991 ; infill
-G1 X181.853 Y211.430 U2.52914 ; infill
-G1 X182.921 Y212.498 U2.53844 ; infill
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U2.56077 ; external small perimeter
-G1 X191.339 Y208.376 U2.58311 ; external small perimeter
-G1 X187.844 Y213.677 U2.60544 ; external small perimeter
-G1 X181.505 Y213.302 U2.62778 ; external small perimeter
-G1 X178.661 Y207.624 U2.65011 ; external small perimeter
-G1 X182.057 Y202.473 U2.67181 ; external small perimeter
-G1 X182.340 Y204.289 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X183.407 Y203.221 U2.68082 ; infill
-G1 X185.813 Y203.364 U2.69520 ; infill
-G1 X180.126 Y209.051 U2.74317 ; infill
-G1 X180.977 Y210.749 U2.75450 ; infill
-G1 X188.172 Y203.553 U2.81521 ; infill
-G1 X189.023 Y205.251 U2.82654 ; infill
-G1 X181.828 Y212.447 U2.88724 ; infill
-G1 X181.853 Y212.498 U2.88758 ; infill
-G1 X184.187 Y212.636 U2.90153 ; infill
-G1 X189.874 Y206.949 U2.94951 ; infill
-G1 X190.273 Y207.747 U2.95483 ; infill
-G1 X187.661 Y211.711 U2.98315 ; infill
-G1 X186.593 Y212.779 U2.99216 ; infill
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U3.01450 ; external small perimeter
-G1 X191.339 Y208.376 U3.03683 ; external small perimeter
-G1 X187.844 Y213.677 U3.05916 ; external small perimeter
-G1 X181.505 Y213.302 U3.08150 ; external small perimeter
-G1 X178.661 Y207.624 U3.10383 ; external small perimeter
-G1 X182.057 Y202.473 U3.12553 ; external small perimeter
-G1 X188.565 Y205.404 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.476 U3.14126 ; infill
-G1 X183.362 Y203.282 U3.16018 ; infill
-G1 X189.726 Y209.645 U3.21210 ; infill
-G1 X188.502 Y211.502 U3.22492 ; infill
-G1 X181.498 Y204.498 U3.28206 ; infill
-G1 X180.274 Y206.355 U3.29488 ; infill
-G1 X186.638 Y212.718 U3.34679 ; infill
-G1 X183.363 Y212.524 U3.36572 ; infill
-G1 X181.435 Y210.596 U3.38145 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U3.40378 ; external small perimeter
-G1 X191.339 Y208.376 U3.42611 ; external small perimeter
-G1 X187.844 Y213.677 U3.44845 ; external small perimeter
-G1 X181.505 Y213.302 U3.47078 ; external small perimeter
-G1 X178.661 Y207.624 U3.49312 ; external small perimeter
-G1 X182.057 Y202.473 U3.51482 ; external small perimeter
-G1 X183.606 Y203.233 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.932 Y204.907 U3.52848 ; infill
-G1 X179.727 Y208.253 U3.55159 ; infill
-G1 X180.374 Y209.545 U3.55993 ; infill
-G1 X186.514 Y203.405 U3.61002 ; infill
-G1 X188.147 Y203.502 U3.61945 ; infill
-G1 X188.598 Y204.402 U3.62526 ; infill
-G1 X181.402 Y211.598 U3.68395 ; infill
-G1 X181.853 Y212.498 U3.68976 ; infill
-G1 X183.486 Y212.595 U3.69920 ; infill
-G1 X189.626 Y206.455 U3.74928 ; infill
-G1 X190.273 Y207.747 U3.75762 ; infill
-G1 X188.068 Y211.093 U3.78074 ; infill
-G1 X186.394 Y212.767 U3.79439 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U3.81673 ; external small perimeter
-G1 X191.339 Y208.376 U3.83906 ; external small perimeter
-G1 X187.844 Y213.677 U3.86140 ; external small perimeter
-G1 X181.505 Y213.302 U3.88373 ; external small perimeter
-G1 X178.661 Y207.624 U3.90607 ; external small perimeter
-G1 X182.057 Y202.473 U3.92777 ; external small perimeter
-G1 X188.565 Y205.404 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.476 U3.94350 ; infill
-G1 X183.362 Y203.282 U3.96242 ; infill
-G1 X189.726 Y209.645 U4.01433 ; infill
-G1 X188.502 Y211.502 U4.02716 ; infill
-G1 X181.498 Y204.498 U4.08429 ; infill
-G1 X180.274 Y206.355 U4.09712 ; infill
-G1 X186.638 Y212.718 U4.14903 ; infill
-G1 X183.363 Y212.524 U4.16795 ; infill
-G1 X181.435 Y210.596 U4.18368 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U4.20601 ; external small perimeter
-G1 X191.339 Y208.376 U4.22835 ; external small perimeter
-G1 X187.844 Y213.677 U4.25068 ; external small perimeter
-G1 X181.505 Y213.302 U4.27302 ; external small perimeter
-G1 X178.661 Y207.624 U4.29535 ; external small perimeter
-G1 X182.057 Y202.473 U4.31705 ; external small perimeter
-G1 X183.606 Y203.233 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.932 Y204.907 U4.33071 ; infill
-G1 X179.727 Y208.253 U4.35382 ; infill
-G1 X180.374 Y209.545 U4.36216 ; infill
-G1 X186.514 Y203.405 U4.41225 ; infill
-G1 X188.147 Y203.502 U4.42168 ; infill
-G1 X188.598 Y204.402 U4.42749 ; infill
-G1 X181.402 Y211.598 U4.48619 ; infill
-G1 X181.853 Y212.498 U4.49200 ; infill
-G1 X183.486 Y212.595 U4.50143 ; infill
-G1 X189.626 Y206.455 U4.55152 ; infill
-G1 X190.273 Y207.747 U4.55986 ; infill
-G1 X188.068 Y211.093 U4.58297 ; infill
-G1 X186.394 Y212.767 U4.59663 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y202.698 U4.61896 ; external small perimeter
-G1 X191.339 Y208.376 U4.64130 ; external small perimeter
-G1 X187.844 Y213.677 U4.66363 ; external small perimeter
-G1 X181.505 Y213.302 U4.68596 ; external small perimeter
-G1 X178.661 Y207.624 U4.70830 ; external small perimeter
-G1 X182.057 Y202.473 U4.73000 ; external small perimeter
-G1 X188.565 Y205.404 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.476 U4.74573 ; infill
-G1 X183.362 Y203.282 U4.76465 ; infill
-G1 X189.726 Y209.645 U4.81656 ; infill
-G1 X188.502 Y211.502 U4.82939 ; infill
-G1 X181.498 Y204.498 U4.88652 ; infill
-G1 X180.274 Y206.355 U4.89935 ; infill
-G1 X186.638 Y212.718 U4.95126 ; infill
-G1 X183.363 Y212.524 U4.97018 ; infill
-G1 X181.435 Y210.596 U4.98591 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-9.05154 F2000; retract to 0
-G92 U0;
-
-G01 U0 F4000;
-G01 Z160 F1000; retract z to some high position
-G01 X95.2 Y50 F1000; get in front of proper tool post
-G01 Y15 F1000; set the correct y height in front of tool post 2
-G01 Y14 Z159 F1000; move diagonallly downwards in Y and Z direction
-G01 Y11 Z155.5 F1000; move diagonallly downwards in Y and Z direction
-G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
-G01 Y50 F1000; move back in the y direction from the tool post 2
-G01 U0 F4000;
-G01 Z143.5 F1000; move towards tool post
-G01 X138.4 Y50 F1000; get near tool post 3
-G01 Y15 F1000; engage magnets with new tool
-G01 Z158.5 F1000; move upward and pull tool off of post
-G01 Y50 F1000; move away from tool post with new tool
-G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X182.332 Y203.174 F1800.000 ; move to first external small perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X188.279 Y203.526 U2.01107 ; external small perimeter
-G1 X190.947 Y208.852 U2.02214 ; external small perimeter
-G1 X187.668 Y213.826 U2.03322 ; external small perimeter
-G1 X181.721 Y213.474 U2.04429 ; external small perimeter
-G1 X179.053 Y208.148 U2.05536 ; external small perimeter
-G1 X182.233 Y203.324 U2.06610 ; external small perimeter
-G1 U0.06610 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X182.790 Y205.922 F1800.000 ; move to first infill point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-G1 F600.000
-G1 X182.579 Y205.909 U2.00047 ; infill
-G1 X182.146 Y206.565 U2.00222 ; infill
-G1 X184.287 Y204.425 U2.00898 ; infill
-G1 X187.371 Y204.608 U2.01587 ; infill
-G1 X181.333 Y210.645 U2.03491 ; infill
-G1 X182.196 Y212.367 U2.03920 ; infill
-G1 X182.840 Y212.405 U2.04064 ; infill
-G1 X188.741 Y206.504 U2.05925 ; infill
-G1 X189.477 Y207.972 U2.06292 ; infill
-G1 X187.422 Y211.090 U2.07125 ; infill
-G1 X185.924 Y212.588 U2.07597 ; infill
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U2.09830 ; external small perimeter
-G1 X191.339 Y208.876 U2.12064 ; external small perimeter
-G1 X187.844 Y214.177 U2.14297 ; external small perimeter
-G1 X181.505 Y213.802 U2.16531 ; external small perimeter
-G1 X178.661 Y208.124 U2.18764 ; external small perimeter
-G1 X182.057 Y202.973 U2.20934 ; external small perimeter
-G1 X188.147 Y205.070 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X187.079 Y204.002 U2.21864 ; infill
-G1 X184.283 Y203.836 U2.23589 ; infill
-G1 X190.070 Y209.624 U2.28629 ; infill
-G1 X189.024 Y211.209 U2.29799 ; infill
-G1 X182.021 Y204.205 U2.35898 ; infill
-G1 X180.976 Y205.791 U2.37068 ; infill
-G1 X187.979 Y212.795 U2.43167 ; infill
-G1 X187.660 Y213.279 U2.43524 ; infill
-G1 X185.717 Y213.164 U2.44723 ; infill
-G1 X179.930 Y207.376 U2.49763 ; infill
-G1 X179.727 Y207.685 U2.49991 ; infill
-G1 X181.853 Y211.930 U2.52914 ; infill
-G1 X182.921 Y212.998 U2.53844 ; infill
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U2.56077 ; external small perimeter
-G1 X191.339 Y208.876 U2.58311 ; external small perimeter
-G1 X187.844 Y214.177 U2.60544 ; external small perimeter
-G1 X181.505 Y213.802 U2.62778 ; external small perimeter
-G1 X178.661 Y208.124 U2.65011 ; external small perimeter
-G1 X182.057 Y202.973 U2.67181 ; external small perimeter
-G1 X182.340 Y204.789 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X183.407 Y203.721 U2.68082 ; infill
-G1 X185.813 Y203.864 U2.69520 ; infill
-G1 X180.126 Y209.551 U2.74317 ; infill
-G1 X180.977 Y211.249 U2.75450 ; infill
-G1 X188.172 Y204.053 U2.81521 ; infill
-G1 X189.023 Y205.751 U2.82654 ; infill
-G1 X181.828 Y212.947 U2.88724 ; infill
-G1 X181.853 Y212.998 U2.88758 ; infill
-G1 X184.187 Y213.136 U2.90153 ; infill
-G1 X189.874 Y207.449 U2.94951 ; infill
-G1 X190.273 Y208.247 U2.95483 ; infill
-G1 X187.661 Y212.211 U2.98315 ; infill
-G1 X186.593 Y213.279 U2.99216 ; infill
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U3.01450 ; external small perimeter
-G1 X191.339 Y208.876 U3.03683 ; external small perimeter
-G1 X187.844 Y214.177 U3.05916 ; external small perimeter
-G1 X181.505 Y213.802 U3.08150 ; external small perimeter
-G1 X178.661 Y208.124 U3.10383 ; external small perimeter
-G1 X182.057 Y202.973 U3.12553 ; external small perimeter
-G1 X188.565 Y205.904 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.976 U3.14126 ; infill
-G1 X183.362 Y203.782 U3.16018 ; infill
-G1 X189.726 Y210.145 U3.21210 ; infill
-G1 X188.502 Y212.002 U3.22492 ; infill
-G1 X181.498 Y204.998 U3.28206 ; infill
-G1 X180.274 Y206.855 U3.29488 ; infill
-G1 X186.638 Y213.218 U3.34679 ; infill
-G1 X183.363 Y213.024 U3.36572 ; infill
-G1 X181.435 Y211.096 U3.38145 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U3.40378 ; external small perimeter
-G1 X191.339 Y208.876 U3.42611 ; external small perimeter
-G1 X187.844 Y214.177 U3.44845 ; external small perimeter
-G1 X181.505 Y213.802 U3.47078 ; external small perimeter
-G1 X178.661 Y208.124 U3.49312 ; external small perimeter
-G1 X182.057 Y202.973 U3.51482 ; external small perimeter
-G1 X183.606 Y203.733 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.932 Y205.407 U3.52848 ; infill
-G1 X179.727 Y208.753 U3.55159 ; infill
-G1 X180.374 Y210.045 U3.55993 ; infill
-G1 X186.514 Y203.905 U3.61002 ; infill
-G1 X188.147 Y204.002 U3.61945 ; infill
-G1 X188.598 Y204.902 U3.62526 ; infill
-G1 X181.402 Y212.098 U3.68396 ; infill
-G1 X181.853 Y212.998 U3.68976 ; infill
-G1 X183.486 Y213.095 U3.69920 ; infill
-G1 X189.626 Y206.955 U3.74928 ; infill
-G1 X190.273 Y208.247 U3.75762 ; infill
-G1 X188.068 Y211.593 U3.78074 ; infill
-G1 X186.394 Y213.267 U3.79439 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U3.81673 ; external small perimeter
-G1 X191.339 Y208.876 U3.83906 ; external small perimeter
-G1 X187.844 Y214.177 U3.86140 ; external small perimeter
-G1 X181.505 Y213.802 U3.88373 ; external small perimeter
-G1 X178.661 Y208.124 U3.90607 ; external small perimeter
-G1 X182.057 Y202.973 U3.92777 ; external small perimeter
-G1 X188.565 Y205.904 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.976 U3.94350 ; infill
-G1 X183.362 Y203.782 U3.96242 ; infill
-G1 X189.726 Y210.145 U4.01433 ; infill
-G1 X188.502 Y212.002 U4.02716 ; infill
-G1 X181.498 Y204.998 U4.08429 ; infill
-G1 X180.274 Y206.855 U4.09712 ; infill
-G1 X186.638 Y213.218 U4.14903 ; infill
-G1 X183.363 Y213.024 U4.16795 ; infill
-G1 X181.435 Y211.096 U4.18368 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U4.20601 ; external small perimeter
-G1 X191.339 Y208.876 U4.22835 ; external small perimeter
-G1 X187.844 Y214.177 U4.25068 ; external small perimeter
-G1 X181.505 Y213.802 U4.27302 ; external small perimeter
-G1 X178.661 Y208.124 U4.29535 ; external small perimeter
-G1 X182.057 Y202.973 U4.31705 ; external small perimeter
-G1 X183.606 Y203.733 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.932 Y205.407 U4.33071 ; infill
-G1 X179.727 Y208.753 U4.35382 ; infill
-G1 X180.374 Y210.045 U4.36216 ; infill
-G1 X186.514 Y203.905 U4.41225 ; infill
-G1 X188.147 Y204.002 U4.42168 ; infill
-G1 X188.598 Y204.902 U4.42749 ; infill
-G1 X181.402 Y212.098 U4.48619 ; infill
-G1 X181.853 Y212.998 U4.49200 ; infill
-G1 X183.486 Y213.095 U4.50143 ; infill
-G1 X189.626 Y206.955 U4.55152 ; infill
-G1 X190.273 Y208.247 U4.55986 ; infill
-G1 X188.068 Y211.593 U4.58297 ; infill
-G1 X186.394 Y213.267 U4.59663 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.495 Y203.198 U4.61896 ; external small perimeter
-G1 X191.339 Y208.876 U4.64130 ; external small perimeter
-G1 X187.844 Y214.177 U4.66363 ; external small perimeter
-G1 X181.505 Y213.802 U4.68596 ; external small perimeter
-G1 X178.661 Y208.124 U4.70830 ; external small perimeter
-G1 X182.057 Y202.973 U4.73000 ; external small perimeter
-G1 X188.565 Y205.904 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.637 Y203.976 U4.74573 ; infill
-G1 X183.362 Y203.782 U4.76465 ; infill
-G1 X189.726 Y210.145 U4.81656 ; infill
-G1 X188.502 Y212.002 U4.82939 ; infill
-G1 X181.498 Y204.998 U4.88652 ; infill
-G1 X180.274 Y206.855 U4.89935 ; infill
-G1 X186.638 Y213.218 U4.95126 ; infill
-G1 X183.363 Y213.024 U4.97018 ; infill
-G1 X181.435 Y211.096 U4.98591 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-9.05154 F2000; retract to 0
-G92 U0;
-
-G01 U0 F4000;
-G01 Z160 F1000; retract z to some high position
-G01 X138.4 Y50 F1000; get in front of proper tool post
-G01 Y0 F1000; set the correct y height in front of tool post 3
-G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
-G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
-G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
-G01 Y50 F1000; move back in the y direction from the tool post 3
-G01 U0 F4000;
-G01 Z143.5 F1000; move towards tool post
-G01 X184 Y50 F1000; get near tool post 4
-G01 Y15 F1000; engage magnets with new tool
-G01 Z158.5 F1000; move upward and pull tool off of post
-G01 Y50 F1000; move away from tool post with new tool
-G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X182.762 Y202.924 F1800.000 ; move to first external small perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X188.709 Y203.276 U2.01107 ; external small perimeter
-G1 X191.377 Y208.602 U2.02214 ; external small perimeter
-G1 X188.098 Y213.576 U2.03322 ; external small perimeter
-G1 X182.151 Y213.224 U2.04429 ; external small perimeter
-G1 X179.483 Y207.898 U2.05536 ; external small perimeter
-G1 X182.663 Y203.074 U2.06610 ; external small perimeter
-G1 U0.06610 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X183.220 Y205.672 F1800.000 ; move to first infill point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-G1 F600.000
-G1 X183.009 Y205.659 U2.00047 ; infill
-G1 X182.576 Y206.315 U2.00222 ; infill
-G1 X184.717 Y204.175 U2.00898 ; infill
-G1 X187.801 Y204.358 U2.01587 ; infill
-G1 X181.763 Y210.395 U2.03491 ; infill
-G1 X182.626 Y212.117 U2.03920 ; infill
-G1 X183.270 Y212.155 U2.04064 ; infill
-G1 X189.171 Y206.254 U2.05925 ; infill
-G1 X189.907 Y207.722 U2.06292 ; infill
-G1 X187.852 Y210.840 U2.07125 ; infill
-G1 X186.354 Y212.338 U2.07597 ; infill
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U2.09830 ; external small perimeter
-G1 X191.769 Y208.626 U2.12064 ; external small perimeter
-G1 X188.274 Y213.927 U2.14297 ; external small perimeter
-G1 X181.935 Y213.552 U2.16531 ; external small perimeter
-G1 X179.091 Y207.874 U2.18764 ; external small perimeter
-G1 X182.487 Y202.723 U2.20934 ; external small perimeter
-G1 X188.577 Y204.820 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X187.509 Y203.752 U2.21864 ; infill
-G1 X184.713 Y203.586 U2.23589 ; infill
-G1 X190.500 Y209.374 U2.28629 ; infill
-G1 X189.454 Y210.959 U2.29799 ; infill
-G1 X182.451 Y203.955 U2.35898 ; infill
-G1 X181.406 Y205.541 U2.37068 ; infill
-G1 X188.409 Y212.545 U2.43167 ; infill
-G1 X188.090 Y213.029 U2.43524 ; infill
-G1 X186.147 Y212.914 U2.44723 ; infill
-G1 X180.360 Y207.126 U2.49763 ; infill
-G1 X180.157 Y207.435 U2.49991 ; infill
-G1 X182.283 Y211.680 U2.52914 ; infill
-G1 X183.351 Y212.748 U2.53844 ; infill
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U2.56077 ; external small perimeter
-G1 X191.769 Y208.626 U2.58311 ; external small perimeter
-G1 X188.274 Y213.927 U2.60544 ; external small perimeter
-G1 X181.935 Y213.552 U2.62778 ; external small perimeter
-G1 X179.091 Y207.874 U2.65011 ; external small perimeter
-G1 X182.487 Y202.723 U2.67181 ; external small perimeter
-G1 X182.770 Y204.539 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X183.837 Y203.471 U2.68082 ; infill
-G1 X186.243 Y203.614 U2.69520 ; infill
-G1 X180.556 Y209.301 U2.74317 ; infill
-G1 X181.407 Y210.999 U2.75450 ; infill
-G1 X188.602 Y203.803 U2.81521 ; infill
-G1 X189.453 Y205.501 U2.82654 ; infill
-G1 X182.258 Y212.697 U2.88724 ; infill
-G1 X182.283 Y212.748 U2.88758 ; infill
-G1 X184.617 Y212.886 U2.90153 ; infill
-G1 X190.304 Y207.199 U2.94951 ; infill
-G1 X190.703 Y207.997 U2.95483 ; infill
-G1 X188.091 Y211.961 U2.98315 ; infill
-G1 X187.023 Y213.029 U2.99216 ; infill
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U3.01450 ; external small perimeter
-G1 X191.769 Y208.626 U3.03683 ; external small perimeter
-G1 X188.274 Y213.927 U3.05916 ; external small perimeter
-G1 X181.935 Y213.552 U3.08150 ; external small perimeter
-G1 X179.091 Y207.874 U3.10383 ; external small perimeter
-G1 X182.487 Y202.723 U3.12553 ; external small perimeter
-G1 X188.995 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.726 U3.14126 ; infill
-G1 X183.792 Y203.532 U3.16019 ; infill
-G1 X190.156 Y209.895 U3.21210 ; infill
-G1 X188.932 Y211.752 U3.22492 ; infill
-G1 X181.928 Y204.748 U3.28206 ; infill
-G1 X180.704 Y206.605 U3.29488 ; infill
-G1 X187.068 Y212.968 U3.34679 ; infill
-G1 X183.793 Y212.774 U3.36572 ; infill
-G1 X181.865 Y210.846 U3.38145 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U3.40378 ; external small perimeter
-G1 X191.769 Y208.626 U3.42611 ; external small perimeter
-G1 X188.274 Y213.927 U3.44845 ; external small perimeter
-G1 X181.935 Y213.552 U3.47078 ; external small perimeter
-G1 X179.091 Y207.874 U3.49312 ; external small perimeter
-G1 X182.487 Y202.723 U3.51482 ; external small perimeter
-G1 X184.036 Y203.483 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.362 Y205.157 U3.52848 ; infill
-G1 X180.157 Y208.503 U3.55159 ; infill
-G1 X180.804 Y209.795 U3.55993 ; infill
-G1 X186.944 Y203.655 U3.61002 ; infill
-G1 X188.577 Y203.752 U3.61945 ; infill
-G1 X189.028 Y204.652 U3.62526 ; infill
-G1 X181.832 Y211.848 U3.68396 ; infill
-G1 X182.283 Y212.748 U3.68976 ; infill
-G1 X183.916 Y212.845 U3.69920 ; infill
-G1 X190.056 Y206.705 U3.74928 ; infill
-G1 X190.703 Y207.997 U3.75762 ; infill
-G1 X188.498 Y211.343 U3.78074 ; infill
-G1 X186.824 Y213.017 U3.79440 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U3.81673 ; external small perimeter
-G1 X191.769 Y208.626 U3.83906 ; external small perimeter
-G1 X188.274 Y213.927 U3.86140 ; external small perimeter
-G1 X181.935 Y213.552 U3.88373 ; external small perimeter
-G1 X179.091 Y207.874 U3.90607 ; external small perimeter
-G1 X182.487 Y202.723 U3.92777 ; external small perimeter
-G1 X188.995 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.726 U3.94350 ; infill
-G1 X183.792 Y203.532 U3.96242 ; infill
-G1 X190.156 Y209.895 U4.01433 ; infill
-G1 X188.932 Y211.752 U4.02716 ; infill
-G1 X181.928 Y204.748 U4.08429 ; infill
-G1 X180.704 Y206.605 U4.09712 ; infill
-G1 X187.068 Y212.968 U4.14903 ; infill
-G1 X183.793 Y212.774 U4.16795 ; infill
-G1 X181.865 Y210.846 U4.18368 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U4.20601 ; external small perimeter
-G1 X191.769 Y208.626 U4.22835 ; external small perimeter
-G1 X188.274 Y213.927 U4.25068 ; external small perimeter
-G1 X181.935 Y213.552 U4.27302 ; external small perimeter
-G1 X179.091 Y207.874 U4.29535 ; external small perimeter
-G1 X182.487 Y202.723 U4.31705 ; external small perimeter
-G1 X184.036 Y203.483 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X182.362 Y205.157 U4.33071 ; infill
-G1 X180.157 Y208.503 U4.35382 ; infill
-G1 X180.804 Y209.795 U4.36216 ; infill
-G1 X186.944 Y203.655 U4.41225 ; infill
-G1 X188.577 Y203.752 U4.42168 ; infill
-G1 X189.028 Y204.652 U4.42749 ; infill
-G1 X181.832 Y211.848 U4.48619 ; infill
-G1 X182.283 Y212.748 U4.49200 ; infill
-G1 X183.916 Y212.845 U4.50143 ; infill
-G1 X190.056 Y206.705 U4.55152 ; infill
-G1 X190.703 Y207.997 U4.55986 ; infill
-G1 X188.498 Y211.343 U4.58297 ; infill
-G1 X186.824 Y213.017 U4.59663 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X182.586 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.925 Y202.948 U4.61896 ; external small perimeter
-G1 X191.769 Y208.626 U4.64130 ; external small perimeter
-G1 X188.274 Y213.927 U4.66363 ; external small perimeter
-G1 X181.935 Y213.552 U4.68597 ; external small perimeter
-G1 X179.091 Y207.874 U4.70830 ; external small perimeter
-G1 X182.487 Y202.723 U4.73000 ; external small perimeter
-G1 X188.995 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X187.067 Y203.726 U4.74573 ; infill
-G1 X183.792 Y203.532 U4.76465 ; infill
-G1 X190.156 Y209.895 U4.81656 ; infill
-G1 X188.932 Y211.752 U4.82939 ; infill
-G1 X181.928 Y204.748 U4.88652 ; infill
-G1 X180.704 Y206.605 U4.89935 ; infill
-G1 X187.068 Y212.968 U4.95126 ; infill
-G1 X183.793 Y212.774 U4.97018 ; infill
-G1 X181.865 Y210.846 U4.98591 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-9.05154 F2000; retract to 0
-G92 U0;
-
-G01 Z60.4 F5000
-G01 X0.0 Y200.00 Z80.00 F2000.00
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X181.892 Y202.924 F1800.000 ; move to first external small perimeter point
-G1 Z0.250 F1800.000 ; move to next layer (0)
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-M83;
-G01 U3;
-G01 U8 F50;
-G92 U0;
-
-G1 F600.000
-G1 X187.839 Y203.276 U2.01419 ; external small perimeter
-G1 X190.507 Y208.602 U2.02839 ; external small perimeter
-G1 X187.228 Y213.576 U2.04258 ; external small perimeter
-G1 X181.281 Y213.224 U2.05678 ; external small perimeter
-G1 X178.613 Y207.898 U2.07097 ; external small perimeter
-G1 X181.793 Y203.074 U2.08474 ; external small perimeter
-G1 U0.08474 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
-G1 X182.350 Y205.672 F1800.000 ; move to first infill point
-G1 U2.00000 F2400.00000 ; unretract extruder 0
-G1 F600.000
-G1 X182.139 Y205.659 U2.00060 ; infill
-G1 X181.706 Y206.315 U2.00285 ; infill
-G1 X183.847 Y204.175 U2.01151 ; infill
-G1 X186.931 Y204.358 U2.02034 ; infill
-G1 X180.893 Y210.395 U2.04475 ; infill
-G1 X181.756 Y212.117 U2.05026 ; infill
-G1 X182.400 Y212.155 U2.05210 ; infill
-G1 X188.301 Y206.254 U2.07597 ; infill
-G1 X189.037 Y207.722 U2.08066 ; infill
-G1 X186.982 Y210.840 U2.09134 ; infill
-G1 X185.484 Y212.338 U2.09740 ; infill
-G1 Z1.450 F1800.000 ; move to next layer (1)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U2.12603 ; external small perimeter
-G1 X190.899 Y208.626 U2.15466 ; external small perimeter
-G1 X187.404 Y213.927 U2.18330 ; external small perimeter
-G1 X181.065 Y213.552 U2.21193 ; external small perimeter
-G1 X178.221 Y207.874 U2.24056 ; external small perimeter
-G1 X181.617 Y202.723 U2.26839 ; external small perimeter
-G1 X187.707 Y204.820 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X186.639 Y203.752 U2.28031 ; infill
-G1 X183.843 Y203.586 U2.30243 ; infill
-G1 X189.630 Y209.374 U2.36704 ; infill
-G1 X188.584 Y210.959 U2.38203 ; infill
-G1 X181.581 Y203.955 U2.46023 ; infill
-G1 X180.536 Y205.541 U2.47523 ; infill
-G1 X187.539 Y212.545 U2.55343 ; infill
-G1 X187.220 Y213.029 U2.55800 ; infill
-G1 X185.277 Y212.914 U2.57337 ; infill
-G1 X179.490 Y207.126 U2.63799 ; infill
-G1 X179.287 Y207.435 U2.64091 ; infill
-G1 X181.413 Y211.680 U2.67839 ; infill
-G1 X182.481 Y212.748 U2.69031 ; infill
-G1 Z2.650 F1800.000 ; move to next layer (2)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U2.71894 ; external small perimeter
-G1 X190.899 Y208.626 U2.74757 ; external small perimeter
-G1 X187.404 Y213.927 U2.77621 ; external small perimeter
-G1 X181.065 Y213.552 U2.80484 ; external small perimeter
-G1 X178.221 Y207.874 U2.83347 ; external small perimeter
-G1 X181.617 Y202.723 U2.86130 ; external small perimeter
-G1 X181.900 Y204.539 F1800.000 ; move to first infill point
-G1 F1200.000
-G1 X182.967 Y203.471 U2.87284 ; infill
-G1 X185.373 Y203.614 U2.89128 ; infill
-G1 X179.686 Y209.301 U2.95279 ; infill
-G1 X180.537 Y210.999 U2.96731 ; infill
-G1 X187.732 Y203.803 U3.04514 ; infill
-G1 X188.583 Y205.501 U3.05966 ; infill
-G1 X181.388 Y212.697 U3.13749 ; infill
-G1 X181.413 Y212.748 U3.13793 ; infill
-G1 X183.747 Y212.886 U3.15581 ; infill
-G1 X189.434 Y207.199 U3.21732 ; infill
-G1 X189.833 Y207.997 U3.22414 ; infill
-G1 X187.221 Y211.961 U3.26045 ; infill
-G1 X186.153 Y213.029 U3.27200 ; infill
-G1 Z3.850 F1800.000 ; move to next layer (3)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U3.30064 ; external small perimeter
-G1 X190.899 Y208.626 U3.32927 ; external small perimeter
-G1 X187.404 Y213.927 U3.35790 ; external small perimeter
-G1 X181.065 Y213.552 U3.38654 ; external small perimeter
-G1 X178.221 Y207.874 U3.41517 ; external small perimeter
-G1 X181.617 Y202.723 U3.44299 ; external small perimeter
-G1 X188.125 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.197 Y203.726 U3.46316 ; infill
-G1 X182.922 Y203.532 U3.48742 ; infill
-G1 X189.286 Y209.895 U3.55397 ; infill
-G1 X188.062 Y211.752 U3.57041 ; infill
-G1 X181.058 Y204.748 U3.64366 ; infill
-G1 X179.834 Y206.605 U3.66011 ; infill
-G1 X186.198 Y212.968 U3.72666 ; infill
-G1 X182.923 Y212.774 U3.75092 ; infill
-G1 X180.995 Y210.846 U3.77108 ; infill
-G1 Z5.050 F1800.000 ; move to next layer (4)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U3.79972 ; external small perimeter
-G1 X190.899 Y208.626 U3.82835 ; external small perimeter
-G1 X187.404 Y213.927 U3.85699 ; external small perimeter
-G1 X181.065 Y213.552 U3.88562 ; external small perimeter
-G1 X178.221 Y207.874 U3.91425 ; external small perimeter
-G1 X181.617 Y202.723 U3.94207 ; external small perimeter
-G1 X183.166 Y203.483 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.492 Y205.157 U3.95959 ; infill
-G1 X179.287 Y208.503 U3.98922 ; infill
-G1 X179.934 Y209.795 U3.99991 ; infill
-G1 X186.074 Y203.655 U4.06412 ; infill
-G1 X187.707 Y203.752 U4.07622 ; infill
-G1 X188.158 Y204.652 U4.08366 ; infill
-G1 X180.962 Y211.848 U4.15892 ; infill
-G1 X181.413 Y212.748 U4.16636 ; infill
-G1 X183.046 Y212.845 U4.17846 ; infill
-G1 X189.186 Y206.705 U4.24267 ; infill
-G1 X189.833 Y207.997 U4.25336 ; infill
-G1 X187.628 Y211.343 U4.28300 ; infill
-G1 X185.954 Y213.017 U4.30051 ; infill
-G1 Z6.250 F1800.000 ; move to next layer (5)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U4.32914 ; external small perimeter
-G1 X190.899 Y208.626 U4.35777 ; external small perimeter
-G1 X187.404 Y213.927 U4.38641 ; external small perimeter
-G1 X181.065 Y213.552 U4.41504 ; external small perimeter
-G1 X178.221 Y207.874 U4.44367 ; external small perimeter
-G1 X181.617 Y202.723 U4.47150 ; external small perimeter
-G1 X188.125 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.197 Y203.726 U4.49166 ; infill
-G1 X182.922 Y203.532 U4.51592 ; infill
-G1 X189.286 Y209.895 U4.58247 ; infill
-G1 X188.062 Y211.752 U4.59892 ; infill
-G1 X181.058 Y204.748 U4.67217 ; infill
-G1 X179.834 Y206.605 U4.68861 ; infill
-G1 X186.198 Y212.968 U4.75516 ; infill
-G1 X182.923 Y212.774 U4.77942 ; infill
-G1 X180.995 Y210.846 U4.79959 ; infill
-G1 Z7.450 F1800.000 ; move to next layer (6)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U4.82822 ; external small perimeter
-G1 X190.899 Y208.626 U4.85686 ; external small perimeter
-G1 X187.404 Y213.927 U4.88549 ; external small perimeter
-G1 X181.065 Y213.552 U4.91412 ; external small perimeter
-G1 X178.221 Y207.874 U4.94276 ; external small perimeter
-G1 X181.617 Y202.723 U4.97058 ; external small perimeter
-G1 X183.166 Y203.483 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X181.492 Y205.157 U4.98809 ; infill
-G1 X179.287 Y208.503 U5.01772 ; infill
-G1 X179.934 Y209.795 U5.02841 ; infill
-G1 X186.074 Y203.655 U5.09263 ; infill
-G1 X187.707 Y203.752 U5.10472 ; infill
-G1 X188.158 Y204.652 U5.11217 ; infill
-G1 X180.962 Y211.848 U5.18742 ; infill
-G1 X181.413 Y212.748 U5.19487 ; infill
-G1 X183.046 Y212.845 U5.20696 ; infill
-G1 X189.186 Y206.705 U5.27118 ; infill
-G1 X189.833 Y207.997 U5.28187 ; infill
-G1 X187.628 Y211.343 U5.31150 ; infill
-G1 X185.954 Y213.017 U5.32901 ; infill
-G1 Z8.650 F1800.000 ; move to next layer (7)
-G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
-G1 F600.000
-G1 X188.055 Y202.948 U5.35764 ; external small perimeter
-G1 X190.899 Y208.626 U5.38628 ; external small perimeter
-G1 X187.404 Y213.927 U5.41491 ; external small perimeter
-G1 X181.065 Y213.552 U5.44354 ; external small perimeter
-G1 X178.221 Y207.874 U5.47218 ; external small perimeter
-G1 X181.617 Y202.723 U5.50000 ; external small perimeter
-G1 X188.125 Y205.654 F1800.000 ; move to first infill point
-G1 F600.000
-G1 X186.197 Y203.726 U5.52017 ; infill
-G1 X182.922 Y203.532 U5.54442 ; infill
-G1 X189.286 Y209.895 U5.61098 ; infill
-G1 X188.062 Y211.752 U5.62742 ; infill
-G1 X181.058 Y204.748 U5.70067 ; infill
-G1 X179.834 Y206.605 U5.71712 ; infill
-G1 X186.198 Y212.968 U5.78367 ; infill
-G1 X182.923 Y212.774 U5.80793 ; infill
-G1 X180.995 Y210.846 U5.82809 ; infill
-G1 Z9.850 F1800.000 ; move to next layer (8)
-;;;;;;;;;;;
-; Retract Code
-;;;;;;;;;
-G92 U0;
-G1 U-9.91223 F2000; retract to 0
-G92 U0;
-
-G01 U0 F4000;
-G01 Z160 F1000; retract z to some high position
-G01 X184 Y50 F1000; get in front of proper tool post
-G01 Y0 F1000; set the correct y height in front of tool post 4
-G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
-G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
-G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
-G01 Y50 F1000; move back in the y direction from the tool post 4
-G01 U0 F4000;
-G01 Z143.5 F1000; move towards tool post
-G01 X229.7 Y50 F1000; get near tool post 5
-G01 Y15 F1000; engage magnets with new tool
-G01 Z158.5 F1000; move upward and pull tool off of post
-G01 Y50 F1000; move away from tool post with new tool
-G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
-
-
-
-G92 U0 ; reset extrusion distance
-G4 P4000; sleep extra 4s
-
-
-G92 U0 ; reset extrusion distance
-G1 U-2.00000 F2400.00000 ; retract extruder 0
-G92 U0 ; reset extrusion distance
 G1 X181.200 Y200.411 F1800.000 ; move to first external perimeter point
 G1 Z0.250 F1800.000 ; move to next layer (0)
 G1 U2.00000 F2400.00000 ; unretract extruder 0
 M83;
-G01 U3;
-G01 U8 F50;
+G01 U55;
+G01 U60 F50;
 G92 U0;
 
 G1 F600.000
@@ -3513,7 +2189,7 @@ G1 Z9.850 F1800.000 ; move to next layer (8)
 ; Retract Code
 ;;;;;;;;;
 G92 U0;
-G1 U-27.66369 F2000; retract to 0
+G1 U-79.66369 F2000; retract to 0
 G92 U0;
 
 G01 U0 F4000;
@@ -3541,12 +2217,909 @@ G4 P4000; sleep extra 4s
 G92 U0 ; reset extrusion distance
 G1 U-2.00000 F2400.00000 ; retract extruder 0
 G92 U0 ; reset extrusion distance
+G1 X182.332 Y202.674 F1800.000 ; move to first external small perimeter point
+G1 Z0.250 F1800.000 ; move to next layer (0)
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+M83;
+G01 U45;
+G01 U50 F50;
+G92 U0;
+
+G1 F600.000
+G1 X188.279 Y203.026 U2.01107 ; external small perimeter
+G1 X190.947 Y208.352 U2.02214 ; external small perimeter
+G1 X187.668 Y213.326 U2.03322 ; external small perimeter
+G1 X181.721 Y212.974 U2.04429 ; external small perimeter
+G1 X179.053 Y207.648 U2.05536 ; external small perimeter
+G1 X182.233 Y202.824 U2.06610 ; external small perimeter
+G1 U0.06610 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X182.790 Y205.422 F1800.000 ; move to first infill point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+G1 F600.000
+G1 X182.579 Y205.409 U2.00047 ; infill
+G1 X182.146 Y206.065 U2.00222 ; infill
+G1 X184.287 Y203.925 U2.00898 ; infill
+G1 X187.371 Y204.108 U2.01587 ; infill
+G1 X181.333 Y210.145 U2.03491 ; infill
+G1 X182.196 Y211.867 U2.03920 ; infill
+G1 X182.840 Y211.905 U2.04064 ; infill
+G1 X188.741 Y206.004 U2.05925 ; infill
+G1 X189.477 Y207.472 U2.06292 ; infill
+G1 X187.422 Y210.590 U2.07125 ; infill
+G1 X185.924 Y212.088 U2.07597 ; infill
+G1 Z1.450 F1800.000 ; move to next layer (1)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U2.09830 ; external small perimeter
+G1 X191.339 Y208.376 U2.12064 ; external small perimeter
+G1 X187.844 Y213.677 U2.14297 ; external small perimeter
+G1 X181.505 Y213.302 U2.16531 ; external small perimeter
+G1 X178.661 Y207.624 U2.18764 ; external small perimeter
+G1 X182.057 Y202.473 U2.20934 ; external small perimeter
+G1 X188.147 Y204.570 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X187.079 Y203.502 U2.21864 ; infill
+G1 X184.283 Y203.336 U2.23589 ; infill
+G1 X190.070 Y209.124 U2.28629 ; infill
+G1 X189.024 Y210.709 U2.29799 ; infill
+G1 X182.021 Y203.705 U2.35898 ; infill
+G1 X180.976 Y205.291 U2.37068 ; infill
+G1 X187.979 Y212.295 U2.43167 ; infill
+G1 X187.660 Y212.779 U2.43524 ; infill
+G1 X185.717 Y212.664 U2.44723 ; infill
+G1 X179.930 Y206.876 U2.49763 ; infill
+G1 X179.727 Y207.185 U2.49991 ; infill
+G1 X181.853 Y211.430 U2.52914 ; infill
+G1 X182.921 Y212.498 U2.53844 ; infill
+G1 Z2.650 F1800.000 ; move to next layer (2)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U2.56077 ; external small perimeter
+G1 X191.339 Y208.376 U2.58311 ; external small perimeter
+G1 X187.844 Y213.677 U2.60544 ; external small perimeter
+G1 X181.505 Y213.302 U2.62778 ; external small perimeter
+G1 X178.661 Y207.624 U2.65011 ; external small perimeter
+G1 X182.057 Y202.473 U2.67181 ; external small perimeter
+G1 X182.340 Y204.289 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X183.407 Y203.221 U2.68082 ; infill
+G1 X185.813 Y203.364 U2.69520 ; infill
+G1 X180.126 Y209.051 U2.74317 ; infill
+G1 X180.977 Y210.749 U2.75450 ; infill
+G1 X188.172 Y203.553 U2.81521 ; infill
+G1 X189.023 Y205.251 U2.82654 ; infill
+G1 X181.828 Y212.447 U2.88724 ; infill
+G1 X181.853 Y212.498 U2.88758 ; infill
+G1 X184.187 Y212.636 U2.90153 ; infill
+G1 X189.874 Y206.949 U2.94951 ; infill
+G1 X190.273 Y207.747 U2.95483 ; infill
+G1 X187.661 Y211.711 U2.98315 ; infill
+G1 X186.593 Y212.779 U2.99216 ; infill
+G1 Z3.850 F1800.000 ; move to next layer (3)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U3.01450 ; external small perimeter
+G1 X191.339 Y208.376 U3.03683 ; external small perimeter
+G1 X187.844 Y213.677 U3.05916 ; external small perimeter
+G1 X181.505 Y213.302 U3.08150 ; external small perimeter
+G1 X178.661 Y207.624 U3.10383 ; external small perimeter
+G1 X182.057 Y202.473 U3.12553 ; external small perimeter
+G1 X188.565 Y205.404 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.476 U3.14126 ; infill
+G1 X183.362 Y203.282 U3.16018 ; infill
+G1 X189.726 Y209.645 U3.21210 ; infill
+G1 X188.502 Y211.502 U3.22492 ; infill
+G1 X181.498 Y204.498 U3.28206 ; infill
+G1 X180.274 Y206.355 U3.29488 ; infill
+G1 X186.638 Y212.718 U3.34679 ; infill
+G1 X183.363 Y212.524 U3.36572 ; infill
+G1 X181.435 Y210.596 U3.38145 ; infill
+G1 Z5.050 F1800.000 ; move to next layer (4)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U3.40378 ; external small perimeter
+G1 X191.339 Y208.376 U3.42611 ; external small perimeter
+G1 X187.844 Y213.677 U3.44845 ; external small perimeter
+G1 X181.505 Y213.302 U3.47078 ; external small perimeter
+G1 X178.661 Y207.624 U3.49312 ; external small perimeter
+G1 X182.057 Y202.473 U3.51482 ; external small perimeter
+G1 X183.606 Y203.233 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.932 Y204.907 U3.52848 ; infill
+G1 X179.727 Y208.253 U3.55159 ; infill
+G1 X180.374 Y209.545 U3.55993 ; infill
+G1 X186.514 Y203.405 U3.61002 ; infill
+G1 X188.147 Y203.502 U3.61945 ; infill
+G1 X188.598 Y204.402 U3.62526 ; infill
+G1 X181.402 Y211.598 U3.68395 ; infill
+G1 X181.853 Y212.498 U3.68976 ; infill
+G1 X183.486 Y212.595 U3.69920 ; infill
+G1 X189.626 Y206.455 U3.74928 ; infill
+G1 X190.273 Y207.747 U3.75762 ; infill
+G1 X188.068 Y211.093 U3.78074 ; infill
+G1 X186.394 Y212.767 U3.79439 ; infill
+G1 Z6.250 F1800.000 ; move to next layer (5)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U3.81673 ; external small perimeter
+G1 X191.339 Y208.376 U3.83906 ; external small perimeter
+G1 X187.844 Y213.677 U3.86140 ; external small perimeter
+G1 X181.505 Y213.302 U3.88373 ; external small perimeter
+G1 X178.661 Y207.624 U3.90607 ; external small perimeter
+G1 X182.057 Y202.473 U3.92777 ; external small perimeter
+G1 X188.565 Y205.404 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.476 U3.94350 ; infill
+G1 X183.362 Y203.282 U3.96242 ; infill
+G1 X189.726 Y209.645 U4.01433 ; infill
+G1 X188.502 Y211.502 U4.02716 ; infill
+G1 X181.498 Y204.498 U4.08429 ; infill
+G1 X180.274 Y206.355 U4.09712 ; infill
+G1 X186.638 Y212.718 U4.14903 ; infill
+G1 X183.363 Y212.524 U4.16795 ; infill
+G1 X181.435 Y210.596 U4.18368 ; infill
+G1 Z7.450 F1800.000 ; move to next layer (6)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U4.20601 ; external small perimeter
+G1 X191.339 Y208.376 U4.22835 ; external small perimeter
+G1 X187.844 Y213.677 U4.25068 ; external small perimeter
+G1 X181.505 Y213.302 U4.27302 ; external small perimeter
+G1 X178.661 Y207.624 U4.29535 ; external small perimeter
+G1 X182.057 Y202.473 U4.31705 ; external small perimeter
+G1 X183.606 Y203.233 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.932 Y204.907 U4.33071 ; infill
+G1 X179.727 Y208.253 U4.35382 ; infill
+G1 X180.374 Y209.545 U4.36216 ; infill
+G1 X186.514 Y203.405 U4.41225 ; infill
+G1 X188.147 Y203.502 U4.42168 ; infill
+G1 X188.598 Y204.402 U4.42749 ; infill
+G1 X181.402 Y211.598 U4.48619 ; infill
+G1 X181.853 Y212.498 U4.49200 ; infill
+G1 X183.486 Y212.595 U4.50143 ; infill
+G1 X189.626 Y206.455 U4.55152 ; infill
+G1 X190.273 Y207.747 U4.55986 ; infill
+G1 X188.068 Y211.093 U4.58297 ; infill
+G1 X186.394 Y212.767 U4.59663 ; infill
+G1 Z8.650 F1800.000 ; move to next layer (7)
+G1 X182.156 Y202.323 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y202.698 U4.61896 ; external small perimeter
+G1 X191.339 Y208.376 U4.64130 ; external small perimeter
+G1 X187.844 Y213.677 U4.66363 ; external small perimeter
+G1 X181.505 Y213.302 U4.68596 ; external small perimeter
+G1 X178.661 Y207.624 U4.70830 ; external small perimeter
+G1 X182.057 Y202.473 U4.73000 ; external small perimeter
+G1 X188.565 Y205.404 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.476 U4.74573 ; infill
+G1 X183.362 Y203.282 U4.76465 ; infill
+G1 X189.726 Y209.645 U4.81656 ; infill
+G1 X188.502 Y211.502 U4.82939 ; infill
+G1 X181.498 Y204.498 U4.88652 ; infill
+G1 X180.274 Y206.355 U4.89935 ; infill
+G1 X186.638 Y212.718 U4.95126 ; infill
+G1 X183.363 Y212.524 U4.97018 ; infill
+G1 X181.435 Y210.596 U4.98591 ; infill
+G1 Z9.850 F1800.000 ; move to next layer (8)
+;;;;;;;;;;;
+; Retract Code
+;;;;;;;;;
+G92 U0;
+G1 U-51.05154 F2000; retract to 0
+G92 U0;
+
+G01 U0 F4000;
+G01 Z160 F1000; retract z to some high position
+G01 X95.2 Y50 F1000; get in front of proper tool post
+G01 Y15 F1000; set the correct y height in front of tool post 2
+G01 Y14 Z159 F1000; move diagonallly downwards in Y and Z direction
+G01 Y11 Z155.5 F1000; move diagonallly downwards in Y and Z direction
+G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
+G01 Y50 F1000; move back in the y direction from the tool post 2
+G01 U0 F4000;
+G01 Z143.5 F1000; move towards tool post
+G01 X138.4 Y50 F1000; get near tool post 3
+G01 Y15 F1000; engage magnets with new tool
+G01 Z158.5 F1000; move upward and pull tool off of post
+G01 Y50 F1000; move away from tool post with new tool
+G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
+
+
+
+G92 U0 ; reset extrusion distance
+G4 P4000; sleep extra 4s
+
+
+G92 U0 ; reset extrusion distance
+G1 U-2.00000 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X182.332 Y203.174 F1800.000 ; move to first external small perimeter point
+G1 Z0.250 F1800.000 ; move to next layer (0)
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+M83;
+G01 U14;
+G01 U19 F50;
+G92 U0;
+
+G1 F600.000
+G1 X188.279 Y203.526 U2.01107 ; external small perimeter
+G1 X190.947 Y208.852 U2.02214 ; external small perimeter
+G1 X187.668 Y213.826 U2.03322 ; external small perimeter
+G1 X181.721 Y213.474 U2.04429 ; external small perimeter
+G1 X179.053 Y208.148 U2.05536 ; external small perimeter
+G1 X182.233 Y203.324 U2.06610 ; external small perimeter
+G1 U0.06610 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X182.790 Y205.922 F1800.000 ; move to first infill point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+G1 F600.000
+G1 X182.579 Y205.909 U2.00047 ; infill
+G1 X182.146 Y206.565 U2.00222 ; infill
+G1 X184.287 Y204.425 U2.00898 ; infill
+G1 X187.371 Y204.608 U2.01587 ; infill
+G1 X181.333 Y210.645 U2.03491 ; infill
+G1 X182.196 Y212.367 U2.03920 ; infill
+G1 X182.840 Y212.405 U2.04064 ; infill
+G1 X188.741 Y206.504 U2.05925 ; infill
+G1 X189.477 Y207.972 U2.06292 ; infill
+G1 X187.422 Y211.090 U2.07125 ; infill
+G1 X185.924 Y212.588 U2.07597 ; infill
+G1 Z1.450 F1800.000 ; move to next layer (1)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U2.09830 ; external small perimeter
+G1 X191.339 Y208.876 U2.12064 ; external small perimeter
+G1 X187.844 Y214.177 U2.14297 ; external small perimeter
+G1 X181.505 Y213.802 U2.16531 ; external small perimeter
+G1 X178.661 Y208.124 U2.18764 ; external small perimeter
+G1 X182.057 Y202.973 U2.20934 ; external small perimeter
+G1 X188.147 Y205.070 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X187.079 Y204.002 U2.21864 ; infill
+G1 X184.283 Y203.836 U2.23589 ; infill
+G1 X190.070 Y209.624 U2.28629 ; infill
+G1 X189.024 Y211.209 U2.29799 ; infill
+G1 X182.021 Y204.205 U2.35898 ; infill
+G1 X180.976 Y205.791 U2.37068 ; infill
+G1 X187.979 Y212.795 U2.43167 ; infill
+G1 X187.660 Y213.279 U2.43524 ; infill
+G1 X185.717 Y213.164 U2.44723 ; infill
+G1 X179.930 Y207.376 U2.49763 ; infill
+G1 X179.727 Y207.685 U2.49991 ; infill
+G1 X181.853 Y211.930 U2.52914 ; infill
+G1 X182.921 Y212.998 U2.53844 ; infill
+G1 Z2.650 F1800.000 ; move to next layer (2)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U2.56077 ; external small perimeter
+G1 X191.339 Y208.876 U2.58311 ; external small perimeter
+G1 X187.844 Y214.177 U2.60544 ; external small perimeter
+G1 X181.505 Y213.802 U2.62778 ; external small perimeter
+G1 X178.661 Y208.124 U2.65011 ; external small perimeter
+G1 X182.057 Y202.973 U2.67181 ; external small perimeter
+G1 X182.340 Y204.789 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X183.407 Y203.721 U2.68082 ; infill
+G1 X185.813 Y203.864 U2.69520 ; infill
+G1 X180.126 Y209.551 U2.74317 ; infill
+G1 X180.977 Y211.249 U2.75450 ; infill
+G1 X188.172 Y204.053 U2.81521 ; infill
+G1 X189.023 Y205.751 U2.82654 ; infill
+G1 X181.828 Y212.947 U2.88724 ; infill
+G1 X181.853 Y212.998 U2.88758 ; infill
+G1 X184.187 Y213.136 U2.90153 ; infill
+G1 X189.874 Y207.449 U2.94951 ; infill
+G1 X190.273 Y208.247 U2.95483 ; infill
+G1 X187.661 Y212.211 U2.98315 ; infill
+G1 X186.593 Y213.279 U2.99216 ; infill
+G1 Z3.850 F1800.000 ; move to next layer (3)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U3.01450 ; external small perimeter
+G1 X191.339 Y208.876 U3.03683 ; external small perimeter
+G1 X187.844 Y214.177 U3.05916 ; external small perimeter
+G1 X181.505 Y213.802 U3.08150 ; external small perimeter
+G1 X178.661 Y208.124 U3.10383 ; external small perimeter
+G1 X182.057 Y202.973 U3.12553 ; external small perimeter
+G1 X188.565 Y205.904 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.976 U3.14126 ; infill
+G1 X183.362 Y203.782 U3.16018 ; infill
+G1 X189.726 Y210.145 U3.21210 ; infill
+G1 X188.502 Y212.002 U3.22492 ; infill
+G1 X181.498 Y204.998 U3.28206 ; infill
+G1 X180.274 Y206.855 U3.29488 ; infill
+G1 X186.638 Y213.218 U3.34679 ; infill
+G1 X183.363 Y213.024 U3.36572 ; infill
+G1 X181.435 Y211.096 U3.38145 ; infill
+G1 Z5.050 F1800.000 ; move to next layer (4)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U3.40378 ; external small perimeter
+G1 X191.339 Y208.876 U3.42611 ; external small perimeter
+G1 X187.844 Y214.177 U3.44845 ; external small perimeter
+G1 X181.505 Y213.802 U3.47078 ; external small perimeter
+G1 X178.661 Y208.124 U3.49312 ; external small perimeter
+G1 X182.057 Y202.973 U3.51482 ; external small perimeter
+G1 X183.606 Y203.733 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.932 Y205.407 U3.52848 ; infill
+G1 X179.727 Y208.753 U3.55159 ; infill
+G1 X180.374 Y210.045 U3.55993 ; infill
+G1 X186.514 Y203.905 U3.61002 ; infill
+G1 X188.147 Y204.002 U3.61945 ; infill
+G1 X188.598 Y204.902 U3.62526 ; infill
+G1 X181.402 Y212.098 U3.68396 ; infill
+G1 X181.853 Y212.998 U3.68976 ; infill
+G1 X183.486 Y213.095 U3.69920 ; infill
+G1 X189.626 Y206.955 U3.74928 ; infill
+G1 X190.273 Y208.247 U3.75762 ; infill
+G1 X188.068 Y211.593 U3.78074 ; infill
+G1 X186.394 Y213.267 U3.79439 ; infill
+G1 Z6.250 F1800.000 ; move to next layer (5)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U3.81673 ; external small perimeter
+G1 X191.339 Y208.876 U3.83906 ; external small perimeter
+G1 X187.844 Y214.177 U3.86140 ; external small perimeter
+G1 X181.505 Y213.802 U3.88373 ; external small perimeter
+G1 X178.661 Y208.124 U3.90607 ; external small perimeter
+G1 X182.057 Y202.973 U3.92777 ; external small perimeter
+G1 X188.565 Y205.904 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.976 U3.94350 ; infill
+G1 X183.362 Y203.782 U3.96242 ; infill
+G1 X189.726 Y210.145 U4.01433 ; infill
+G1 X188.502 Y212.002 U4.02716 ; infill
+G1 X181.498 Y204.998 U4.08429 ; infill
+G1 X180.274 Y206.855 U4.09712 ; infill
+G1 X186.638 Y213.218 U4.14903 ; infill
+G1 X183.363 Y213.024 U4.16795 ; infill
+G1 X181.435 Y211.096 U4.18368 ; infill
+G1 Z7.450 F1800.000 ; move to next layer (6)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U4.20601 ; external small perimeter
+G1 X191.339 Y208.876 U4.22835 ; external small perimeter
+G1 X187.844 Y214.177 U4.25068 ; external small perimeter
+G1 X181.505 Y213.802 U4.27302 ; external small perimeter
+G1 X178.661 Y208.124 U4.29535 ; external small perimeter
+G1 X182.057 Y202.973 U4.31705 ; external small perimeter
+G1 X183.606 Y203.733 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.932 Y205.407 U4.33071 ; infill
+G1 X179.727 Y208.753 U4.35382 ; infill
+G1 X180.374 Y210.045 U4.36216 ; infill
+G1 X186.514 Y203.905 U4.41225 ; infill
+G1 X188.147 Y204.002 U4.42168 ; infill
+G1 X188.598 Y204.902 U4.42749 ; infill
+G1 X181.402 Y212.098 U4.48619 ; infill
+G1 X181.853 Y212.998 U4.49200 ; infill
+G1 X183.486 Y213.095 U4.50143 ; infill
+G1 X189.626 Y206.955 U4.55152 ; infill
+G1 X190.273 Y208.247 U4.55986 ; infill
+G1 X188.068 Y211.593 U4.58297 ; infill
+G1 X186.394 Y213.267 U4.59663 ; infill
+G1 Z8.650 F1800.000 ; move to next layer (7)
+G1 X182.156 Y202.823 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.495 Y203.198 U4.61896 ; external small perimeter
+G1 X191.339 Y208.876 U4.64130 ; external small perimeter
+G1 X187.844 Y214.177 U4.66363 ; external small perimeter
+G1 X181.505 Y213.802 U4.68596 ; external small perimeter
+G1 X178.661 Y208.124 U4.70830 ; external small perimeter
+G1 X182.057 Y202.973 U4.73000 ; external small perimeter
+G1 X188.565 Y205.904 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.637 Y203.976 U4.74573 ; infill
+G1 X183.362 Y203.782 U4.76465 ; infill
+G1 X189.726 Y210.145 U4.81656 ; infill
+G1 X188.502 Y212.002 U4.82939 ; infill
+G1 X181.498 Y204.998 U4.88652 ; infill
+G1 X180.274 Y206.855 U4.89935 ; infill
+G1 X186.638 Y213.218 U4.95126 ; infill
+G1 X183.363 Y213.024 U4.97018 ; infill
+G1 X181.435 Y211.096 U4.98591 ; infill
+G1 Z9.850 F1800.000 ; move to next layer (8)
+;;;;;;;;;;;
+; Retract Code
+;;;;;;;;;
+G92 U0;
+G1 U-20.05154 F2000; retract to 0
+G92 U0;
+
+G01 U0 F4000;
+G01 Z160 F1000; retract z to some high position
+G01 X138.4 Y50 F1000; get in front of proper tool post
+G01 Y0 F1000; set the correct y height in front of tool post 3
+G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
+G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
+G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
+G01 Y50 F1000; move back in the y direction from the tool post 3
+G01 U0 F4000;
+G01 Z143.5 F1000; move towards tool post
+G01 X184 Y50 F1000; get near tool post 4
+G01 Y15 F1000; engage magnets with new tool
+G01 Z158.5 F1000; move upward and pull tool off of post
+G01 Y50 F1000; move away from tool post with new tool
+G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
+
+
+
+G92 U0 ; reset extrusion distance
+G4 P4000; sleep extra 4s
+
+
+G92 U0 ; reset extrusion distance
+G1 U-2.00000 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X181.892 Y202.924 F1800.000 ; move to first external small perimeter point
+G1 Z0.250 F1800.000 ; move to next layer (0)
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+M83;
+G01 U35;
+G01 U40 F50;
+G92 U0;
+
+G1 F600.000
+G1 X187.839 Y203.276 U2.01419 ; external small perimeter
+G1 X190.507 Y208.602 U2.02839 ; external small perimeter
+G1 X187.228 Y213.576 U2.04258 ; external small perimeter
+G1 X181.281 Y213.224 U2.05678 ; external small perimeter
+G1 X178.613 Y207.898 U2.07097 ; external small perimeter
+G1 X181.793 Y203.074 U2.08474 ; external small perimeter
+G1 U0.08474 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X182.350 Y205.672 F1800.000 ; move to first infill point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+G1 F600.000
+G1 X182.139 Y205.659 U2.00060 ; infill
+G1 X181.706 Y206.315 U2.00285 ; infill
+G1 X183.847 Y204.175 U2.01151 ; infill
+G1 X186.931 Y204.358 U2.02034 ; infill
+G1 X180.893 Y210.395 U2.04475 ; infill
+G1 X181.756 Y212.117 U2.05026 ; infill
+G1 X182.400 Y212.155 U2.05210 ; infill
+G1 X188.301 Y206.254 U2.07597 ; infill
+G1 X189.037 Y207.722 U2.08066 ; infill
+G1 X186.982 Y210.840 U2.09134 ; infill
+G1 X185.484 Y212.338 U2.09740 ; infill
+G1 Z1.450 F1800.000 ; move to next layer (1)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U2.12603 ; external small perimeter
+G1 X190.899 Y208.626 U2.15466 ; external small perimeter
+G1 X187.404 Y213.927 U2.18330 ; external small perimeter
+G1 X181.065 Y213.552 U2.21193 ; external small perimeter
+G1 X178.221 Y207.874 U2.24056 ; external small perimeter
+G1 X181.617 Y202.723 U2.26839 ; external small perimeter
+G1 X187.707 Y204.820 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X186.639 Y203.752 U2.28031 ; infill
+G1 X183.843 Y203.586 U2.30243 ; infill
+G1 X189.630 Y209.374 U2.36704 ; infill
+G1 X188.584 Y210.959 U2.38203 ; infill
+G1 X181.581 Y203.955 U2.46023 ; infill
+G1 X180.536 Y205.541 U2.47523 ; infill
+G1 X187.539 Y212.545 U2.55343 ; infill
+G1 X187.220 Y213.029 U2.55800 ; infill
+G1 X185.277 Y212.914 U2.57337 ; infill
+G1 X179.490 Y207.126 U2.63799 ; infill
+G1 X179.287 Y207.435 U2.64091 ; infill
+G1 X181.413 Y211.680 U2.67839 ; infill
+G1 X182.481 Y212.748 U2.69031 ; infill
+G1 Z2.650 F1800.000 ; move to next layer (2)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U2.71894 ; external small perimeter
+G1 X190.899 Y208.626 U2.74757 ; external small perimeter
+G1 X187.404 Y213.927 U2.77621 ; external small perimeter
+G1 X181.065 Y213.552 U2.80484 ; external small perimeter
+G1 X178.221 Y207.874 U2.83347 ; external small perimeter
+G1 X181.617 Y202.723 U2.86130 ; external small perimeter
+G1 X181.900 Y204.539 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X182.967 Y203.471 U2.87284 ; infill
+G1 X185.373 Y203.614 U2.89128 ; infill
+G1 X179.686 Y209.301 U2.95279 ; infill
+G1 X180.537 Y210.999 U2.96731 ; infill
+G1 X187.732 Y203.803 U3.04514 ; infill
+G1 X188.583 Y205.501 U3.05966 ; infill
+G1 X181.388 Y212.697 U3.13749 ; infill
+G1 X181.413 Y212.748 U3.13793 ; infill
+G1 X183.747 Y212.886 U3.15581 ; infill
+G1 X189.434 Y207.199 U3.21732 ; infill
+G1 X189.833 Y207.997 U3.22414 ; infill
+G1 X187.221 Y211.961 U3.26045 ; infill
+G1 X186.153 Y213.029 U3.27200 ; infill
+G1 Z3.850 F1800.000 ; move to next layer (3)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U3.30064 ; external small perimeter
+G1 X190.899 Y208.626 U3.32927 ; external small perimeter
+G1 X187.404 Y213.927 U3.35790 ; external small perimeter
+G1 X181.065 Y213.552 U3.38654 ; external small perimeter
+G1 X178.221 Y207.874 U3.41517 ; external small perimeter
+G1 X181.617 Y202.723 U3.44299 ; external small perimeter
+G1 X188.125 Y205.654 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.197 Y203.726 U3.46316 ; infill
+G1 X182.922 Y203.532 U3.48742 ; infill
+G1 X189.286 Y209.895 U3.55397 ; infill
+G1 X188.062 Y211.752 U3.57041 ; infill
+G1 X181.058 Y204.748 U3.64366 ; infill
+G1 X179.834 Y206.605 U3.66011 ; infill
+G1 X186.198 Y212.968 U3.72666 ; infill
+G1 X182.923 Y212.774 U3.75092 ; infill
+G1 X180.995 Y210.846 U3.77108 ; infill
+G1 Z5.050 F1800.000 ; move to next layer (4)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U3.79972 ; external small perimeter
+G1 X190.899 Y208.626 U3.82835 ; external small perimeter
+G1 X187.404 Y213.927 U3.85699 ; external small perimeter
+G1 X181.065 Y213.552 U3.88562 ; external small perimeter
+G1 X178.221 Y207.874 U3.91425 ; external small perimeter
+G1 X181.617 Y202.723 U3.94207 ; external small perimeter
+G1 X183.166 Y203.483 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.492 Y205.157 U3.95959 ; infill
+G1 X179.287 Y208.503 U3.98922 ; infill
+G1 X179.934 Y209.795 U3.99991 ; infill
+G1 X186.074 Y203.655 U4.06412 ; infill
+G1 X187.707 Y203.752 U4.07622 ; infill
+G1 X188.158 Y204.652 U4.08366 ; infill
+G1 X180.962 Y211.848 U4.15892 ; infill
+G1 X181.413 Y212.748 U4.16636 ; infill
+G1 X183.046 Y212.845 U4.17846 ; infill
+G1 X189.186 Y206.705 U4.24267 ; infill
+G1 X189.833 Y207.997 U4.25336 ; infill
+G1 X187.628 Y211.343 U4.28300 ; infill
+G1 X185.954 Y213.017 U4.30051 ; infill
+G1 Z6.250 F1800.000 ; move to next layer (5)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U4.32914 ; external small perimeter
+G1 X190.899 Y208.626 U4.35777 ; external small perimeter
+G1 X187.404 Y213.927 U4.38641 ; external small perimeter
+G1 X181.065 Y213.552 U4.41504 ; external small perimeter
+G1 X178.221 Y207.874 U4.44367 ; external small perimeter
+G1 X181.617 Y202.723 U4.47150 ; external small perimeter
+G1 X188.125 Y205.654 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.197 Y203.726 U4.49166 ; infill
+G1 X182.922 Y203.532 U4.51592 ; infill
+G1 X189.286 Y209.895 U4.58247 ; infill
+G1 X188.062 Y211.752 U4.59892 ; infill
+G1 X181.058 Y204.748 U4.67217 ; infill
+G1 X179.834 Y206.605 U4.68861 ; infill
+G1 X186.198 Y212.968 U4.75516 ; infill
+G1 X182.923 Y212.774 U4.77942 ; infill
+G1 X180.995 Y210.846 U4.79959 ; infill
+G1 Z7.450 F1800.000 ; move to next layer (6)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U4.82822 ; external small perimeter
+G1 X190.899 Y208.626 U4.85686 ; external small perimeter
+G1 X187.404 Y213.927 U4.88549 ; external small perimeter
+G1 X181.065 Y213.552 U4.91412 ; external small perimeter
+G1 X178.221 Y207.874 U4.94276 ; external small perimeter
+G1 X181.617 Y202.723 U4.97058 ; external small perimeter
+G1 X183.166 Y203.483 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.492 Y205.157 U4.98809 ; infill
+G1 X179.287 Y208.503 U5.01772 ; infill
+G1 X179.934 Y209.795 U5.02841 ; infill
+G1 X186.074 Y203.655 U5.09263 ; infill
+G1 X187.707 Y203.752 U5.10472 ; infill
+G1 X188.158 Y204.652 U5.11217 ; infill
+G1 X180.962 Y211.848 U5.18742 ; infill
+G1 X181.413 Y212.748 U5.19487 ; infill
+G1 X183.046 Y212.845 U5.20696 ; infill
+G1 X189.186 Y206.705 U5.27118 ; infill
+G1 X189.833 Y207.997 U5.28187 ; infill
+G1 X187.628 Y211.343 U5.31150 ; infill
+G1 X185.954 Y213.017 U5.32901 ; infill
+G1 Z8.650 F1800.000 ; move to next layer (7)
+G1 X181.716 Y202.573 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.055 Y202.948 U5.35764 ; external small perimeter
+G1 X190.899 Y208.626 U5.38628 ; external small perimeter
+G1 X187.404 Y213.927 U5.41491 ; external small perimeter
+G1 X181.065 Y213.552 U5.44354 ; external small perimeter
+G1 X178.221 Y207.874 U5.47218 ; external small perimeter
+G1 X181.617 Y202.723 U5.50000 ; external small perimeter
+G1 X188.125 Y205.654 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X186.197 Y203.726 U5.52017 ; infill
+G1 X182.922 Y203.532 U5.54442 ; infill
+G1 X189.286 Y209.895 U5.61098 ; infill
+G1 X188.062 Y211.752 U5.62742 ; infill
+G1 X181.058 Y204.748 U5.70067 ; infill
+G1 X179.834 Y206.605 U5.71712 ; infill
+G1 X186.198 Y212.968 U5.78367 ; infill
+G1 X182.923 Y212.774 U5.80793 ; infill
+G1 X180.995 Y210.846 U5.82809 ; infill
+G1 Z9.850 F1800.000 ; move to next layer (8)
+;;;;;;;;;;;
+; Retract Code
+;;;;;;;;;
+G92 U0;
+G1 U-41.91223 F2000; retract to 0
+G92 U0;
+
+G01 U0 F4000;
+G01 Z160 F1000; retract z to some high position
+G01 X184 Y50 F1000; get in front of proper tool post
+G01 Y0 F1000; set the correct y height in front of tool post 4
+G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
+G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
+G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
+G01 Y50 F1000; move back in the y direction from the tool post 4
+G01 U0 F4000;
+G01 Z143.5 F1000; move towards tool post
+G01 X229.7 Y50 F1000; get near tool post 5
+G01 Y15 F1000; engage magnets with new tool
+G01 Z158.5 F1000; move upward and pull tool off of post
+G01 Y50 F1000; move away from tool post with new tool
+G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
+
+
+
+G92 U0 ; reset extrusion distance
+G4 P4000; sleep extra 4s
+
+
+G92 U0 ; reset extrusion distance
+G1 U-2.00000 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X188.860 Y203.994 F1800.000 ; move to first perimeter point
+G1 Z0.250 F1800.000 ; move to next layer (0)
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+M83;
+G01 U40;
+G01 U45 F50;
+G92 U0;
+
+G1 F600.000
+G1 X180.734 Y203.512 U2.01106 ; perimeter
+G1 Z1.450 F1800.000 ; move to next layer (1)
+G1 X181.647 Y203.255 F1800.000 ; move to first external perimeter point
+G1 F600.000
+G1 X187.984 Y203.630 U2.02938 ; external perimeter
+G1 X188.913 Y205.494 U2.03539 ; external perimeter
+
+G1 F1200.000
+G1 X190.828 Y209.338 U2.05737 ; external perimeter (bridge)
+G1 X189.015 Y212.101 U2.07429 ; external perimeter (bridge)
+G1 X179.623 Y211.544 U2.12247 ; external perimeter (bridge)
+G1 X178.148 Y208.586 U2.13939 ; external perimeter (bridge)
+G1 X180.504 Y204.996 U2.16137 ; external perimeter (bridge)
+
+G1 F600.000
+G1 X181.548 Y203.405 U2.16686 ; external perimeter
+G1 U0.16686 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X187.853 Y205.015 F1800.000 ; move to first infill (bridge) point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+
+G1 F1200.000
+G1 X181.613 Y204.645 U2.03689 ; infill (bridge)
+G1 X180.428 Y206.450 U2.04962 ; infill (bridge)
+G1 X188.816 Y206.947 U2.09920 ; infill (bridge)
+G1 X189.779 Y208.879 U2.11193 ; infill (bridge)
+G1 X179.244 Y208.254 U2.17420 ; infill (bridge)
+G1 X178.994 Y208.636 U2.17689 ; infill (bridge)
+G1 X179.753 Y210.160 U2.18693 ; infill (bridge)
+G1 X189.049 Y210.711 U2.24187 ; infill (bridge)
+G1 X181.262 Y210.249 U2.28789 ; infill (bridge)
+
+G1 Z2.650 F1800.000 ; move to next layer (2)
+G1 X181.654 Y203.136 F1800.000 ; move to first external perimeter point
+G1 F600.000
+G1 X187.991 Y203.512 U2.30621 ; external perimeter
+G1 X190.835 Y209.219 U2.32462 ; external perimeter
+G1 X188.149 Y213.312 U2.33874 ; external perimeter
+
+G1 F1200.000
+G1 X187.337 Y214.551 U2.34633 ; external perimeter (bridge)
+G1 X181.000 Y214.175 U2.37883 ; external perimeter (bridge)
+G1 X180.339 Y212.849 U2.38642 ; external perimeter (bridge)
+
+G1 F600.000
+G1 X178.155 Y208.468 U2.40055 ; external perimeter
+G1 X181.555 Y203.287 U2.41843 ; external perimeter
+G1 X182.907 Y204.035 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X181.839 Y205.103 U2.42646 ; infill
+G1 X179.363 Y208.877 U2.45045 ; infill
+G1 X180.750 Y208.960 U2.45784 ; infill
+G1 X185.520 Y204.190 U2.49369 ; infill
+G1 X187.641 Y204.316 U2.50498 ; infill
+G1 X187.814 Y204.663 U2.50704 ; infill
+G1 X183.362 Y209.114 U2.54050 ; infill
+G1 X185.975 Y209.269 U2.55441 ; infill
+G1 X188.734 Y206.510 U2.57515 ; infill
+G1 X189.654 Y208.356 U2.58612 ; infill
+G1 X188.587 Y209.424 U2.59414 ; infill
+G1 X187.150 Y212.581 F1800.000 ; move to first infill (bridge) point
+
+G1 F1200.000
+G1 X186.081 Y213.650 U2.60540 ; infill (bridge)
+
+G1 U0.60540 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X183.282 Y213.485 F1800.000 ; move to first infill (bridge) point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+
+G1 F1200.000
+G1 X186.831 Y209.936 U2.03736 ; infill (bridge)
+G1 X184.032 Y209.770 U2.05824 ; infill (bridge)
+G1 X181.045 Y212.757 U2.08969 ; infill (bridge)
+G1 X180.059 Y210.778 U2.10615 ; infill (bridge)
+G1 X181.233 Y209.604 U2.11851 ; infill (bridge)
+
+G1 Z3.850 F1800.000 ; move to next layer (3)
+G1 X181.661 Y203.018 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X187.998 Y203.394 U2.13683 ; external small perimeter
+G1 X190.842 Y209.101 U2.15524 ; external small perimeter
+G1 X187.344 Y214.432 U2.17364 ; external small perimeter
+G1 X181.007 Y214.057 U2.19196 ; external small perimeter
+G1 X178.163 Y208.349 U2.21036 ; external small perimeter
+G1 X181.562 Y203.168 U2.22825 ; external small perimeter
+G1 X187.648 Y205.265 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X186.580 Y204.197 U2.23591 ; infill
+G1 X183.771 Y204.031 U2.25019 ; infill
+G1 X189.581 Y209.841 U2.29189 ; infill
+G1 X188.534 Y211.436 U2.30157 ; infill
+G1 X181.517 Y204.419 U2.35194 ; infill
+G1 X180.470 Y206.014 U2.36162 ; infill
+G1 X187.487 Y213.032 U2.41199 ; infill
+G1 X187.158 Y213.534 U2.41504 ; infill
+G1 X185.233 Y213.420 U2.42482 ; infill
+G1 X179.423 Y207.610 U2.46652 ; infill
+G1 X179.226 Y207.910 U2.46834 ; infill
+G1 X181.356 Y212.185 U2.49258 ; infill
+G1 X182.424 Y213.253 U2.50025 ; infill
+G1 Z5.050 F1800.000 ; move to next layer (4)
+G1 X181.668 Y202.900 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.005 Y203.275 U2.51857 ; external small perimeter
+G1 X190.849 Y208.983 U2.53697 ; external small perimeter
+G1 X187.351 Y214.314 U2.55537 ; external small perimeter
+G1 X181.014 Y213.939 U2.57369 ; external small perimeter
+G1 X178.170 Y208.231 U2.59210 ; external small perimeter
+G1 X181.569 Y203.050 U2.60998 ; external small perimeter
+G1 X181.854 Y204.866 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X182.921 Y203.798 U2.61740 ; infill
+G1 X185.337 Y203.942 U2.62929 ; infill
+G1 X179.627 Y209.651 U2.66897 ; infill
+G1 X180.478 Y211.359 U2.67834 ; infill
+G1 X187.689 Y204.148 U2.72845 ; infill
+G1 X188.540 Y205.855 U2.73783 ; infill
+G1 X181.329 Y213.066 U2.78794 ; infill
+G1 X181.364 Y213.135 U2.78832 ; infill
+G1 X183.682 Y213.272 U2.79973 ; infill
+G1 X189.391 Y207.563 U2.83941 ; infill
+G1 X189.785 Y208.354 U2.84375 ; infill
+G1 X187.165 Y212.347 U2.86722 ; infill
+G1 X186.097 Y213.415 U2.87465 ; infill
+G1 Z6.250 F1800.000 ; move to next layer (5)
+G1 X181.675 Y202.781 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.012 Y203.157 U2.89297 ; external small perimeter
+G1 X190.856 Y208.864 U2.91137 ; external small perimeter
+G1 X187.358 Y214.196 U2.92977 ; external small perimeter
+G1 X181.021 Y213.820 U2.94809 ; external small perimeter
+G1 X178.177 Y208.113 U2.96649 ; external small perimeter
+G1 X181.576 Y202.932 U2.98438 ; external small perimeter
+G1 X181.218 Y210.569 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X182.438 Y213.017 U2.99732 ; infill
+G1 X183.743 Y213.094 U3.00351 ; infill
+G1 X180.151 Y209.501 U3.02756 ; infill
+G1 X179.240 Y207.674 U3.03722 ; infill
+G1 X180.097 Y206.368 U3.04462 ; infill
+G1 X187.018 Y213.288 U3.09094 ; infill
+G1 X187.172 Y213.297 U3.09167 ; infill
+G1 X188.335 Y211.525 U3.10170 ; infill
+G1 X181.318 Y204.508 U3.14867 ; infill
+G1 X181.861 Y203.680 U3.15335 ; infill
+G1 X183.678 Y203.788 U3.16197 ; infill
+G1 X189.555 Y209.665 U3.20131 ; infill
+G1 Z7.450 F1800.000 ; move to next layer (6)
+G1 X181.682 Y202.663 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.019 Y203.039 U3.21963 ; external small perimeter
+G1 X190.863 Y208.746 U3.23803 ; external small perimeter
+G1 X187.365 Y214.078 U3.25644 ; external small perimeter
+G1 X181.028 Y213.702 U3.27476 ; external small perimeter
+G1 X178.184 Y207.995 U3.29316 ; external small perimeter
+G1 X181.583 Y202.814 U3.31104 ; external small perimeter
+G1 X184.447 Y204.782 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X181.868 Y204.629 U3.32327 ; infill
+G1 X179.247 Y208.623 U3.34588 ; infill
+G1 X179.699 Y209.530 U3.35068 ; infill
+G1 X185.515 Y203.715 U3.38961 ; infill
+G1 X187.669 Y203.842 U3.39982 ; infill
+G1 X187.935 Y204.375 U3.40264 ; infill
+G1 X180.724 Y211.586 U3.45090 ; infill
+G1 X181.378 Y212.898 U3.45784 ; infill
+G1 X182.430 Y212.961 U3.46283 ; infill
+G1 X188.959 Y206.431 U3.50653 ; infill
+G1 X189.799 Y208.118 U3.51545 ; infill
+G1 X188.743 Y209.728 U3.52456 ; infill
+G1 X185.338 Y213.133 U3.54736 ; infill
+G1 Z8.650 F1800.000 ; move to next layer (7)
+G1 X181.689 Y202.545 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.026 Y202.920 U3.56568 ; external small perimeter
+G1 X190.870 Y208.628 U3.58408 ; external small perimeter
+G1 X187.372 Y213.959 U3.60248 ; external small perimeter
+G1 X181.035 Y213.584 U3.62080 ; external small perimeter
+G1 X178.191 Y207.876 U3.63921 ; external small perimeter
+G1 X181.590 Y202.695 U3.65709 ; external small perimeter
+G1 X181.481 Y210.832 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X182.452 Y212.780 U3.66739 ; infill
+G1 X183.491 Y212.842 U3.67232 ; infill
+G1 X180.414 Y209.764 U3.69291 ; infill
+G1 X179.254 Y207.437 U3.70522 ; infill
+G1 X180.012 Y206.282 U3.71176 ; infill
+G1 X186.765 Y213.036 U3.75696 ; infill
+G1 X187.186 Y213.061 U3.75896 ; infill
+G1 X188.250 Y211.440 U3.76813 ; infill
+G1 X181.232 Y204.422 U3.81510 ; infill
+G1 X181.875 Y203.444 U3.82064 ; infill
+G1 X183.426 Y203.536 U3.82800 ; infill
+G1 X189.470 Y209.580 U3.86845 ; infill
+G1 Z9.850 F1800.000 ; move to next layer (8)
+;;;;;;;;;;;
+; Retract Code
+;;;;;;;;;
+G92 U0;
+G1 U-45.60335 F2000; retract to 0
+G92 U0;
+
+G01 U0 F4000;
+G01 Z160 F1000; retract z to some high position
+G01 X229.7 Y50 F1000; get in front of proper tool post
+G01 Y0 F1000; set the correct y height in front of tool post 5
+G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
+G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
+G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
+G01 Y50 F1000; move back in the y direction from the tool post 5
+G01 U0 F4000;
+G01 Z143.5 F1000; move towards tool post
+G01 X276.1 Y50 F1000; get near tool post 6
+G01 Y15 F1000; engage magnets with new tool
+G01 Z158.5 F1000; move upward and pull tool off of post
+G01 Y50 F1000; move away from tool post with new tool
+G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
+
+
+
+G92 U0 ; reset extrusion distance
+G4 P4000; sleep extra 4s
+
+
+G92 U0 ; reset extrusion distance
+G1 U-2.00000 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
 G1 X182.332 Y202.424 F1800.000 ; move to first external small perimeter point
 G1 Z0.250 F1800.000 ; move to next layer (0)
 G1 U2.00000 F2400.00000 ; unretract extruder 0
 M83;
-G01 U3;
-G01 U8 F50;
+G01 U20;
+G01 U25 F50;
 G92 U0;
 
 G1 F600.000
@@ -3733,7 +3306,7 @@ G1 Z9.850 F1800.000 ; move to next layer (8)
 ; Retract Code
 ;;;;;;;;;
 G92 U0;
-G1 U-9.91223 F2000; retract to 0
+G1 U-26.91223 F2000; retract to 0
 G92 U0;
 
 G01 U0 F4000;
@@ -3747,6 +3320,226 @@ G01 Y50 F1000; move back in the y direction from the tool post 6
 G01 U0 F4000;
 G01 Z143.5 F1000; move towards tool post
 G01 X321.2 Y50 F1000; get near tool post 7
+G01 Y15 F1000; engage magnets with new tool
+G01 Z158.5 F1000; move upward and pull tool off of post
+G01 Y50 F1000; move away from tool post with new tool
+G01 Z158.5 F1000; force upward movement to ensure there's no contact with walls
+
+
+
+G92 U0 ; reset extrusion distance
+G4 P4000; sleep extra 4s
+
+
+G92 U0 ; reset extrusion distance
+G1 U-2.00000 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X182.762 Y202.424 F1800.000 ; move to first external small perimeter point
+G1 Z0.250 F1800.000 ; move to next layer (0)
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+M83;
+G01 U17;
+G01 U22 F50;
+G92 U0;
+
+G1 F600.000
+G1 X188.709 Y202.776 U2.01419 ; external small perimeter
+G1 X191.377 Y208.102 U2.02839 ; external small perimeter
+G1 X188.098 Y213.076 U2.04258 ; external small perimeter
+G1 X182.151 Y212.724 U2.05678 ; external small perimeter
+G1 X179.483 Y207.398 U2.07097 ; external small perimeter
+G1 X182.663 Y202.574 U2.08474 ; external small perimeter
+G1 U0.08474 F2400.00000 ; retract extruder 0
+G92 U0 ; reset extrusion distance
+G1 X183.220 Y205.172 F1800.000 ; move to first infill point
+G1 U2.00000 F2400.00000 ; unretract extruder 0
+G1 F600.000
+G1 X183.009 Y205.159 U2.00060 ; infill
+G1 X182.576 Y205.815 U2.00285 ; infill
+G1 X184.717 Y203.675 U2.01151 ; infill
+G1 X187.801 Y203.858 U2.02034 ; infill
+G1 X181.763 Y209.895 U2.04475 ; infill
+G1 X182.626 Y211.617 U2.05026 ; infill
+G1 X183.270 Y211.655 U2.05210 ; infill
+G1 X189.171 Y205.754 U2.07597 ; infill
+G1 X189.907 Y207.222 U2.08066 ; infill
+G1 X187.852 Y210.340 U2.09134 ; infill
+G1 X186.354 Y211.838 U2.09740 ; infill
+G1 Z1.450 F1800.000 ; move to next layer (1)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U2.12603 ; external small perimeter
+G1 X191.769 Y208.126 U2.15466 ; external small perimeter
+G1 X188.274 Y213.427 U2.18330 ; external small perimeter
+G1 X181.935 Y213.052 U2.21193 ; external small perimeter
+G1 X179.091 Y207.374 U2.24056 ; external small perimeter
+G1 X182.487 Y202.223 U2.26839 ; external small perimeter
+G1 X188.577 Y204.320 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X187.509 Y203.252 U2.28031 ; infill
+G1 X184.713 Y203.086 U2.30243 ; infill
+G1 X190.500 Y208.874 U2.36704 ; infill
+G1 X189.454 Y210.459 U2.38203 ; infill
+G1 X182.451 Y203.455 U2.46023 ; infill
+G1 X181.406 Y205.041 U2.47523 ; infill
+G1 X188.409 Y212.045 U2.55343 ; infill
+G1 X188.090 Y212.529 U2.55800 ; infill
+G1 X186.147 Y212.414 U2.57337 ; infill
+G1 X180.360 Y206.626 U2.63799 ; infill
+G1 X180.157 Y206.935 U2.64091 ; infill
+G1 X182.283 Y211.180 U2.67839 ; infill
+G1 X183.351 Y212.248 U2.69031 ; infill
+G1 Z2.650 F1800.000 ; move to next layer (2)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U2.71894 ; external small perimeter
+G1 X191.769 Y208.126 U2.74757 ; external small perimeter
+G1 X188.274 Y213.427 U2.77621 ; external small perimeter
+G1 X181.935 Y213.052 U2.80484 ; external small perimeter
+G1 X179.091 Y207.374 U2.83347 ; external small perimeter
+G1 X182.487 Y202.223 U2.86130 ; external small perimeter
+G1 X182.770 Y204.039 F1800.000 ; move to first infill point
+G1 F1200.000
+G1 X183.837 Y202.971 U2.87284 ; infill
+G1 X186.243 Y203.114 U2.89128 ; infill
+G1 X180.556 Y208.801 U2.95279 ; infill
+G1 X181.407 Y210.499 U2.96731 ; infill
+G1 X188.602 Y203.303 U3.04514 ; infill
+G1 X189.453 Y205.001 U3.05966 ; infill
+G1 X182.258 Y212.197 U3.13749 ; infill
+G1 X182.283 Y212.248 U3.13793 ; infill
+G1 X184.617 Y212.386 U3.15581 ; infill
+G1 X190.304 Y206.699 U3.21732 ; infill
+G1 X190.703 Y207.497 U3.22414 ; infill
+G1 X188.091 Y211.461 U3.26045 ; infill
+G1 X187.023 Y212.529 U3.27200 ; infill
+G1 Z3.850 F1800.000 ; move to next layer (3)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U3.30064 ; external small perimeter
+G1 X191.769 Y208.126 U3.32927 ; external small perimeter
+G1 X188.274 Y213.427 U3.35790 ; external small perimeter
+G1 X181.935 Y213.052 U3.38654 ; external small perimeter
+G1 X179.091 Y207.374 U3.41517 ; external small perimeter
+G1 X182.487 Y202.223 U3.44299 ; external small perimeter
+G1 X188.995 Y205.154 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X187.067 Y203.226 U3.46316 ; infill
+G1 X183.792 Y203.032 U3.48742 ; infill
+G1 X190.156 Y209.395 U3.55397 ; infill
+G1 X188.932 Y211.252 U3.57041 ; infill
+G1 X181.928 Y204.248 U3.64366 ; infill
+G1 X180.704 Y206.105 U3.66011 ; infill
+G1 X187.068 Y212.468 U3.72666 ; infill
+G1 X183.793 Y212.274 U3.75092 ; infill
+G1 X181.865 Y210.346 U3.77108 ; infill
+G1 Z5.050 F1800.000 ; move to next layer (4)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U3.79972 ; external small perimeter
+G1 X191.769 Y208.126 U3.82835 ; external small perimeter
+G1 X188.274 Y213.427 U3.85699 ; external small perimeter
+G1 X181.935 Y213.052 U3.88562 ; external small perimeter
+G1 X179.091 Y207.374 U3.91425 ; external small perimeter
+G1 X182.487 Y202.223 U3.94207 ; external small perimeter
+G1 X184.036 Y202.983 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X182.362 Y204.657 U3.95959 ; infill
+G1 X180.157 Y208.003 U3.98922 ; infill
+G1 X180.804 Y209.295 U3.99991 ; infill
+G1 X186.944 Y203.155 U4.06412 ; infill
+G1 X188.577 Y203.252 U4.07622 ; infill
+G1 X189.028 Y204.152 U4.08366 ; infill
+G1 X181.832 Y211.348 U4.15892 ; infill
+G1 X182.283 Y212.248 U4.16636 ; infill
+G1 X183.916 Y212.345 U4.17846 ; infill
+G1 X190.056 Y206.205 U4.24267 ; infill
+G1 X190.703 Y207.497 U4.25336 ; infill
+G1 X188.498 Y210.843 U4.28300 ; infill
+G1 X186.824 Y212.517 U4.30051 ; infill
+G1 Z6.250 F1800.000 ; move to next layer (5)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U4.32914 ; external small perimeter
+G1 X191.769 Y208.126 U4.35777 ; external small perimeter
+G1 X188.274 Y213.427 U4.38641 ; external small perimeter
+G1 X181.935 Y213.052 U4.41504 ; external small perimeter
+G1 X179.091 Y207.374 U4.44367 ; external small perimeter
+G1 X182.487 Y202.223 U4.47150 ; external small perimeter
+G1 X188.995 Y205.154 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X187.067 Y203.226 U4.49166 ; infill
+G1 X183.792 Y203.032 U4.51592 ; infill
+G1 X190.156 Y209.395 U4.58247 ; infill
+G1 X188.932 Y211.252 U4.59892 ; infill
+G1 X181.928 Y204.248 U4.67217 ; infill
+G1 X180.704 Y206.105 U4.68861 ; infill
+G1 X187.068 Y212.468 U4.75516 ; infill
+G1 X183.793 Y212.274 U4.77942 ; infill
+G1 X181.865 Y210.346 U4.79959 ; infill
+G1 Z7.450 F1800.000 ; move to next layer (6)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U4.82822 ; external small perimeter
+G1 X191.769 Y208.126 U4.85686 ; external small perimeter
+G1 X188.274 Y213.427 U4.88549 ; external small perimeter
+G1 X181.935 Y213.052 U4.91412 ; external small perimeter
+G1 X179.091 Y207.374 U4.94276 ; external small perimeter
+G1 X182.487 Y202.223 U4.97058 ; external small perimeter
+G1 X184.036 Y202.983 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X182.362 Y204.657 U4.98809 ; infill
+G1 X180.157 Y208.003 U5.01772 ; infill
+G1 X180.804 Y209.295 U5.02841 ; infill
+G1 X186.944 Y203.155 U5.09263 ; infill
+G1 X188.577 Y203.252 U5.10472 ; infill
+G1 X189.028 Y204.152 U5.11217 ; infill
+G1 X181.832 Y211.348 U5.18742 ; infill
+G1 X182.283 Y212.248 U5.19487 ; infill
+G1 X183.916 Y212.345 U5.20696 ; infill
+G1 X190.056 Y206.205 U5.27118 ; infill
+G1 X190.703 Y207.497 U5.28187 ; infill
+G1 X188.498 Y210.843 U5.31150 ; infill
+G1 X186.824 Y212.517 U5.32901 ; infill
+G1 Z8.650 F1800.000 ; move to next layer (7)
+G1 X182.586 Y202.073 F1800.000 ; move to first external small perimeter point
+G1 F600.000
+G1 X188.925 Y202.448 U5.35764 ; external small perimeter
+G1 X191.769 Y208.126 U5.38628 ; external small perimeter
+G1 X188.274 Y213.427 U5.41491 ; external small perimeter
+G1 X181.935 Y213.052 U5.44354 ; external small perimeter
+G1 X179.091 Y207.374 U5.47218 ; external small perimeter
+G1 X182.487 Y202.223 U5.50000 ; external small perimeter
+G1 X188.995 Y205.154 F1800.000 ; move to first infill point
+G1 F600.000
+G1 X187.067 Y203.226 U5.52017 ; infill
+G1 X183.792 Y203.032 U5.54442 ; infill
+G1 X190.156 Y209.395 U5.61098 ; infill
+G1 X188.932 Y211.252 U5.62742 ; infill
+G1 X181.928 Y204.248 U5.70067 ; infill
+G1 X180.704 Y206.105 U5.71711 ; infill
+G1 X187.068 Y212.468 U5.78367 ; infill
+G1 X183.793 Y212.274 U5.80793 ; infill
+G1 X181.865 Y210.346 U5.82809 ; infill
+G1 Z9.850 F1800.000 ; move to next layer (8)
+;;;;;;;;;;;
+; Retract Code
+;;;;;;;;;
+G92 U0;
+G1 U-23.91223 F2000; retract to 0
+G92 U0;
+
+G01 U0 F4000;
+G01 Z160 F1000; retract z to some high position
+G01 X321.2 Y50 F1000; get in front of proper tool post
+G01 Y0 F1000; set the correct y height in front of tool post 7
+G01 Y70 Z143.5 F1000; move diagonallly downwards in Y and Z direction
+G01 Y11 Z160 F1000; move diagonallly downwards in Y and Z direction
+G01 Z143.5 F1000; set the correct z height in front of tool post by moving back up
+G01 Y50 F1000; move back in the y direction from the tool post 7
+G01 U0 F4000;
+G01 Z143.5 F1000; move towards tool post
+G01 X364.8 Y50 F1000; get near tool post 8
 G01 Y15 F1000; engage magnets with new tool
 G01 Z158.5 F1000; move upward and pull tool off of post
 G01 Y50 F1000; move away from tool post with new tool

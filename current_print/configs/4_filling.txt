@@ -1,8 +1,8 @@
 ./gcode_unclean/4_filling_185_208.5_-0.10_0.0195.gcode
-./gcode_clean/14_filling_185_208.5_-0.10_0.0195.gcode
+./gcode_clean/4_filling_185_208.5_-0.10_0.0195.gcode
 8
 1
-8
+19
 3
 4
 0

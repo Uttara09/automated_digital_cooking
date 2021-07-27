@@ -2,7 +2,7 @@
 ./gcode_clean/3_filling_185_208_-0.10_0.0195.gcode
 8
 1
-8
+50
 2
 3
 0

@@ -3,6 +3,7 @@ from os import listdir
 from os.path import isfile, join
 import fileinput
 import sys
+import collections
 
 def main():
 	concat = open("concat.sh", "w")
@@ -16,6 +17,9 @@ def main():
 			clean_idx_file[f.split("_")[0]] = f
 
 	concat.write("cat")
+	# sort clean_idx_file by index
+
+	clean_idx_file = collections.OrderedDict(sorted(clean_idx_file.items()))
 	for key in clean_idx_file.keys():
 		concat.write(" gcode_clean/")
 		concat.write(clean_idx_file[key])
