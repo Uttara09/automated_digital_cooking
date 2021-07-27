@@ -1,4 +1,4 @@
-G01 U0 F4000;
+G28 U0 F1000;
 G01 Z3.5 F1000; move towards tool post
 G01 X56 Y70 F1000; get near tool post 10
 G01 Y39 F1000; engage magnets with new tool

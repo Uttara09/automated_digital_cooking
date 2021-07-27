@@ -1,4 +1,4 @@
-G01 U0 F4000;
+G28 U0 F1000;;
 G01 Z160 F1000; retract z to some high position
 G01 X276.1 Y50 F1000; get in front of proper tool post
 G01 Y0 F1000; set the correct y height in front of tool post 6

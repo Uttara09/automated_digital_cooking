@@ -80,7 +80,7 @@ for ran in range(len(PICKUP)):
  #Pickup tool
  f = open(folderName + "/tool_pick_" + str(ran) + ".gcode", "w")
  # Retract U axis
- f.write("G01 U0 F4000;\n")
+ f.write("G28 U0 F1000;\n")
  f.write("G01 Z"+str(PICKUP[ran][0])+" F"+str(SPEEDPICKUP[0])+"; move towards tool post\n")
  f.write("G01 X"+str(PICKUP[ran][1])+" Y"+str(PICKUP[ran][2])+" F"+str(SPEEDPICKUP[1])+"; get near tool post " + str(ran)+"\n")
  f.write("G01 Y"+str(PICKUP[ran][3])+" F"+str(SPEEDPICKUP[2])+"; engage magnets with new tool\n")
@@ -93,7 +93,7 @@ for ran in range(len(PICKUP)):
  #Dropoff Tool
  f = open(folderName + "/tool_drop_" + str(ran) + ".gcode", "w")
  # Retract U axis
- f.write("G01 U0 F4000;\n")
+ f.write("G28 U0 F1000;;\n")
  # G01 X1 Y1 Z1 F4000
  f.write("G01 Z"+str(DROPOFF[ran][0])+" F"+str(SPEEDDROPOFF[0])+"; retract z to some high position\n")
  f.write("G01 X"+str(DROPOFF[ran][1])+" Y"+str(DROPOFF[ran][2])+" F"+str(SPEEDDROPOFF[1])+"; get in front of proper tool post\n")
