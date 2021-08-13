@@ -1,8 +1,8 @@
-./gcode_unclean/1_base_185_208_-0.35_0.024.gcode
-./gcode_clean/1_base_185_208_-0.35_0.024.gcode
+./gcode_unclean/1_base_185_208_0.00_0.016.gcode
+./gcode_clean/1_base_185_208_0.00_0.016.gcode
 8
 1
-50
+23
 0
 1
 0

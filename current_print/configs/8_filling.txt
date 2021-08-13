@@ -1,8 +1,8 @@
-./gcode_unclean/8_filling_185.43_207.75_-0.10_0.025.gcode
-./gcode_clean/8_filling_185.43_207.75_-0.10_0.025.gcode
+./gcode_unclean/8_filling_195.9982_201.65_6.35_0.025.gcode
+./gcode_clean/8_filling_195.9982_201.65_6.35_0.025.gcode
 8
 1
-22
+32
 7
 8
 0
