@@ -1,8 +1,0 @@
-./gcode_unclean/3_filling_185_208_6.35_0.0195.gcode
-./gcode_clean/3_filling_185_208_6.35_0.0195.gcode
-8
-1
-8
-2
-3
-0

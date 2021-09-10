@@ -1,8 +1,0 @@
-./gcode_unclean/5_filling_174.00_214.35_6.35_0.0195.gcode
-./gcode_clean/5_filling_174.00_214.35_6.35_0.0195.gcode
-8
-1
-71
-4
-5
-0

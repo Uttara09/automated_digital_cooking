@@ -1,8 +1,0 @@
-./gcode_unclean/2_shell_185_208_6.35_0.02.gcode
-./gcode_clean/2_shell_185_208_6.35_0.02.gcode
-8
-1
-7
-1
-2
-0
